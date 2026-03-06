@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { gsap } from 'gsap';
@@ -10,11 +11,14 @@ const navLinks = [
   { label: 'Case Review', href: '#case-review' },
   { label: 'Testimony', href: '#testimony' },
   { label: 'IME', href: '#ime' },
+  { label: 'Blog', href: '/blog', isRoute: true },
   { label: 'Contact', href: '#contact' },
 ];
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +29,12 @@ export function Navigation() {
   }, []);
 
   const scrollToSection = (href: string) => {
+    // If we're not on the home page, navigate there first
+    if (location.pathname !== '/') {
+      navigate('/' + href);
+      return;
+    }
+
     // Get the target element
     const element = document.querySelector(href);
     if (!element) return;
@@ -32,13 +42,13 @@ export function Navigation() {
     // Disable all ScrollTrigger snapping temporarily
     const allTriggers = ScrollTrigger.getAll();
     const snapTriggers = allTriggers.filter(st => st.vars.snap);
-    
+
     // Kill snap triggers
     snapTriggers.forEach(st => st.kill());
 
     // Get element position
     const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-    
+
     // Use GSAP for smooth scrolling
     gsap.to(window, {
       duration: 1,
@@ -64,30 +74,37 @@ export function Navigation() {
         <div className="w-full px-6 lg:px-12">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('#');
-              }}
+            <Link
+              to="/"
               className="font-display font-bold text-lg lg:text-xl text-foreground tracking-tight"
             >
               NeuroLegal
-            </a>
+            </Link>
 
             {/* Navigation links + CTA – expanded and visible on all screen sizes */}
             <div className="flex items-center gap-2 sm:gap-4 lg:gap-6 min-w-0 flex-1 justify-end">
               <div className="flex items-center gap-2 sm:gap-3 lg:gap-6 flex-wrap justify-end">
-                {navLinks.map((link) => (
-                  <button
-                    key={link.label}
-                    onClick={() => scrollToSection(link.href)}
-                    className="text-xs sm:text-sm font-medium text-foreground/80 hover:text-electric transition-colors relative group whitespace-nowrap"
-                  >
-                    {link.label}
-                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electric transition-all duration-300 group-hover:w-full" />
-                  </button>
-                ))}
+                {navLinks.map((link) =>
+                  'isRoute' in link && link.isRoute ? (
+                    <Link
+                      key={link.label}
+                      to={link.href}
+                      className="text-xs sm:text-sm font-medium text-foreground/80 hover:text-electric transition-colors relative group whitespace-nowrap"
+                    >
+                      {link.label}
+                      <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electric transition-all duration-300 group-hover:w-full" />
+                    </Link>
+                  ) : (
+                    <button
+                      key={link.label}
+                      onClick={() => scrollToSection(link.href)}
+                      className="text-xs sm:text-sm font-medium text-foreground/80 hover:text-electric transition-colors relative group whitespace-nowrap"
+                    >
+                      {link.label}
+                      <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electric transition-all duration-300 group-hover:w-full" />
+                    </button>
+                  )
+                )}
               </div>
               <div className="flex items-center gap-2 sm:gap-3 shrink-0">
               <a
