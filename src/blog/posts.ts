@@ -307,4 +307,69 @@ If you are evaluating a case involving epilepsy misdiagnosis, delayed seizure di
 
 *This post is for informational purposes and does not constitute legal or medical advice. Standards of care vary by jurisdiction.*`,
   },
+  {
+    slug: 'spinal-cord-injury-malpractice-neurology-expert-witness',
+    title: 'Spinal Cord Injury Malpractice — When a Neurology Expert Witness Is Essential',
+    metaDescription: 'Spinal cord injury malpractice cases demand specialized neurology expertise. Learn how diagnostic failures, surgical errors, and delayed treatment create actionable claims — and why ASIA grading and neurological prognosis require a neurology expert witness.',
+    date: '2026-03-07',
+    author: 'NLC Editorial',
+    keywords: ['spinal cord injury malpractice', 'spinal cord injury expert witness', 'spinal cord injury misdiagnosis', 'spinal cord injury medical malpractice', 'spinal cord malpractice settlements', 'neurology expert witness spinal cord'],
+    content: `Spinal cord injuries represent some of the most catastrophic outcomes in medical malpractice litigation. A single diagnostic delay, a mismanaged surgical complication, or a failure to recognize progressive cord compression can transform a treatable condition into permanent paralysis. For plaintiff attorneys, these cases carry enormous damages potential — median plaintiff verdicts in spinal cord injury malpractice exceed $2.9 million, and settlements regularly reach seven figures — but they also demand a level of neurological expertise that generalist medical experts cannot provide.
+
+At the core of every spinal cord injury malpractice case is a clinical question: did the treating physician meet the standard of care in diagnosing, monitoring, and managing a condition that threatened the spinal cord? Answering that question requires a neurology expert witness who understands cord neuroanatomy, injury classification systems, prognostic indicators, and the evolving standards governing spinal emergency management.
+
+## How Spinal Cord Injury Malpractice Occurs
+
+Malpractice involving the spinal cord arises in several distinct clinical scenarios, each presenting unique liability frameworks.
+
+The most common is delayed diagnosis of cord compression. Conditions such as epidural abscess, epidural hematoma, metastatic spinal cord compression, and large disc herniations with myelopathy all require urgent intervention. The standard of care demands that physicians recognize the red-flag symptoms — progressive bilateral weakness, bowel or bladder dysfunction, saddle anesthesia, and rapidly ascending sensory levels — and obtain emergent imaging. When emergency physicians, primary care providers, or even neurologists fail to act on these warning signs within the accepted time window, the resulting cord damage is often irreversible.
+
+Surgical malpractice is another major category. Spinal surgeries — including decompressions, fusions, and stimulator implantations — carry inherent risk, but new severe neurological deficits following surgery frequently raise standard-of-care questions. Was the surgical approach appropriate for the pathology? Were intraoperative neurophysiological monitoring results recognized and acted upon? Was the postoperative neurological examination performed with adequate frequency and competence?
+
+Post-operative monitoring failures constitute a third liability pattern. Developing hematomas, hardware malposition, or progressive edema can compress the cord in the hours following surgery. When nursing staff or physicians fail to perform serial neurological examinations or fail to recognize new deficits and escalate appropriately, the window for surgical re-intervention closes.
+
+## Why Standard Neurological Assessment Matters
+
+The American Spinal Injury Association (ASIA) Impairment Scale is the gold standard for classifying spinal cord injuries. This standardized examination defines injury completeness (ASIA A through E), neurological level, and zones of partial preservation. In malpractice litigation, ASIA grading serves two critical evidentiary functions.
+
+First, it establishes the baseline. A properly documented ASIA examination at initial presentation creates the neurological benchmark against which all subsequent changes are measured. If the initial assessment shows ASIA D (incomplete injury with functional motor preservation) and the patient later deteriorates to ASIA A (complete injury with no motor or sensory function below the level), the timeline and mechanism of that deterioration become central to the liability analysis.
+
+Second, ASIA grading informs prognosis and damages. Incomplete injuries (ASIA B, C, and D) carry significantly better recovery potential than complete injuries (ASIA A). If malpractice converted what should have been a recoverable incomplete injury into a permanent complete injury, the damages differential is enormous — potentially representing the difference between ambulatory independence and lifetime ventilator-dependent quadriplegia.
+
+A neurology expert witness must be able to interpret ASIA examinations, identify whether they were performed correctly, and opine on whether the documented neurological trajectory is consistent with the natural history of the injury or reflects an iatrogenic worsening.
+
+## The Diagnostic Standard of Care
+
+Current clinical guidelines establish clear timelines and imaging protocols for suspected spinal cord compromise. MRI of the spine is the imaging modality of choice for evaluating cord compression and should be obtained emergently when clinical findings suggest acute or progressive myelopathy. CT myelography serves as an alternative when MRI is contraindicated or unavailable.
+
+The standard of care requires that physicians perform a focused neurological examination including motor strength grading, sensory level determination, reflex assessment, and evaluation of bowel and bladder function in any patient presenting with symptoms suggestive of cord involvement. Failure to perform this examination — or failure to document it adequately — is itself a deviation from the standard of care that a neurology expert witness can identify and explain to a jury.
+
+Particular attention should be paid to the emergency department evaluation. Studies show that emergency physicians miss spinal cord compression in a meaningful percentage of cases, particularly when patients present with back pain as the chief complaint without initially volunteering neurological symptoms. The standard of care requires that emergency physicians actively elicit neurological history and perform a neurological examination rather than relying solely on the patient's self-reported symptoms.
+
+## Building a Spinal Cord Injury Malpractice Case
+
+For plaintiff attorneys evaluating a potential spinal cord injury malpractice case, several elements strengthen the claim.
+
+First, secure the complete medical record with particular attention to timed nursing assessments, neurological examination documentation, and imaging order timestamps. The interval between symptom onset, imaging acquisition, and surgical intervention is often the most critical evidence in the case.
+
+Second, obtain all imaging studies in DICOM format, not just radiology reports. A neurology expert witness reviewing the actual images can identify findings that were present but not reported — or reported but not acted upon — establishing the breach of standard of care at the diagnostic level.
+
+Third, document the neurological trajectory. Serial ASIA or equivalent neurological examinations showing deterioration during the period of alleged negligence create powerful causation evidence. If the trajectory shows stability or improvement before the negligent act and decline afterward, the causal link becomes difficult to dispute.
+
+Fourth, assess lifetime care costs early. Spinal cord injuries generate extraordinary economic damages: lifetime care costs for a high cervical injury sustained at age 25 can exceed $5 million in direct costs alone, with additional lost earnings and non-economic damages. Early engagement of life care planning experts alongside the neurology expert witness ensures the damages case is built in parallel with the liability analysis.
+
+## Why These Cases Require a Neurology Expert Witness
+
+Spinal cord injury malpractice cases are among the highest-stakes matters in medical litigation. The clinical questions are technical, the standard-of-care framework involves subspecialty-level knowledge, and the damages are life-altering. A qualified neurology expert witness should be board-certified in neurology with demonstrated experience in spinal cord injury assessment, ASIA grading, and neurological prognosis. They should maintain active clinical practice that includes evaluating patients with myelopathy and cord injury. And they must be able to review imaging, operative reports, and serial neurological examinations to reconstruct the clinical timeline and identify where care deviated from the accepted standard.
+
+At NLC, our neurology expert witnesses bring active clinical practices in spinal cord assessment and neurodiagnostics to every case. This means they can identify the exact clinical decision point where the standard of care was breached — whether it was a missed MRI indication, a failure to act on progressive weakness, an inadequate post-surgical monitoring protocol, or an incorrectly interpreted neurological examination.
+
+## Consultation
+
+If you are evaluating a case involving spinal cord injury from surgical error, diagnostic delay, or post-operative monitoring failure, NLC's neurology expert witnesses can provide comprehensive case review, imaging analysis, ASIA grading assessment, and standard-of-care opinions. Contact our team to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal or medical advice. Standards of care vary by jurisdiction.*`,
+  },
 ];
