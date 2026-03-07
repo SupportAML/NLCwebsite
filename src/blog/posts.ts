@@ -250,4 +250,61 @@ If you're evaluating a potential mTBI case, contact us for a confidential case r
 
 *This post is for informational purposes and does not constitute legal advice.*`,
   },
+  {
+    slug: 'epilepsy-misdiagnosis-neurology-expert-witness',
+    title: 'Epilepsy Misdiagnosis in Medical Malpractice — Why EEG Interpretation Demands a Neurology Expert Witness',
+    metaDescription: 'Epilepsy misdiagnosis is a growing area of medical malpractice litigation. Learn how EEG interpretation errors, delayed diagnosis, and medication failures create actionable claims — and why a neurology expert witness is essential.',
+    date: '2026-03-07',
+    author: 'NLC Editorial',
+    keywords: ['epilepsy misdiagnosis malpractice', 'EEG expert witness', 'seizure misdiagnosis lawsuit', 'epilepsy malpractice attorney', 'neurology expert witness epilepsy', 'failure to diagnose epilepsy', 'EEG interpretation errors', 'antiepileptic drug malpractice'],
+    content: `Epilepsy affects approximately 3.4 million Americans, making it one of the most common neurological conditions. Yet despite well-established diagnostic criteria and widely available EEG technology, epilepsy remains one of the most frequently misdiagnosed neurological disorders. Studies consistently show that roughly 20 to 30 percent of patients referred to epilepsy centers for refractory seizures are ultimately found to have been misdiagnosed — meaning they never had epilepsy at all.
+
+For plaintiff attorneys handling neurological malpractice cases, epilepsy misdiagnosis represents a significant and often underexplored area of liability. These cases hinge on technical EEG interpretation, nuanced clinical decision-making, and standard-of-care questions that require a board-certified neurology expert witness with specific epilepsy and electroencephalography expertise.
+
+## How Epilepsy Misdiagnosis Occurs
+
+Epilepsy misdiagnosis falls into two categories, each carrying distinct legal implications.
+
+The first is false-positive diagnosis — patients who are told they have epilepsy when they do not. This frequently occurs when non-epileptic events such as psychogenic nonepileptic seizures (PNES), syncope, movement disorders, or cardiac arrhythmias are mistakenly classified as epileptic seizures. The consequences are severe: patients are placed on antiepileptic drugs (AEDs) they do not need, exposing them to side effects including cognitive impairment, hepatotoxicity, teratogenic risks during pregnancy, and bone density loss. Some patients undergo unnecessary surgical evaluations.
+
+The second category is false-negative diagnosis — patients whose epilepsy is missed entirely. Delayed diagnosis of epilepsy can result in preventable seizure-related injuries, motor vehicle accidents, drowning, status epilepticus, and in the most tragic cases, sudden unexpected death in epilepsy (SUDEP). SUDEP occurs in approximately 1 in 1,000 adults with epilepsy annually, with risk increasing significantly when seizures remain uncontrolled due to diagnostic delay.
+
+## The Central Role of EEG Interpretation
+
+Electroencephalography is the cornerstone diagnostic tool in epilepsy, and EEG interpretation errors are at the heart of most epilepsy malpractice claims. The technical challenges are substantial.
+
+Normal EEG variants — benign patterns such as wicket spikes, small sharp spikes, rhythmic temporal theta bursts of drowsiness, and 14-and-6 Hz positive spikes — are frequently misidentified as epileptiform discharges by physicians without specialized training. This over-reading of normal variants is the single most common cause of false epilepsy diagnosis.
+
+Conversely, subtle epileptiform patterns can be missed on routine EEG, particularly when seizures originate from deep structures (mesial temporal lobe, orbitofrontal cortex) that may not produce clear scalp EEG correlates. A single routine 20-minute EEG captures interictal epileptiform discharges in only 29 to 55 percent of patients with confirmed epilepsy, meaning that a normal EEG never rules out the diagnosis.
+
+The standard of care requires that EEG interpretation be performed or supervised by a physician with specific training in clinical neurophysiology. When a general neurologist, emergency physician, or non-neurologist interprets an EEG without this specialized training, the risk of misinterpretation increases substantially — and with it, the exposure to malpractice liability.
+
+## Medication Management Failures
+
+Beyond diagnostic errors, epilepsy malpractice claims frequently involve medication management failures. These include prescribing AEDs without adequate seizure classification, failure to monitor drug levels and adjust dosing appropriately, prescribing valproate to women of childbearing age without documented informed consent regarding teratogenic risks, and failure to recognize and act on drug interactions.
+
+Each of these scenarios creates a clear standard-of-care framework that a neurology expert witness can evaluate against established guidelines from the American Academy of Neurology and the International League Against Epilepsy.
+
+## Why Epilepsy Cases Require a Neurology Expert Witness
+
+Epilepsy malpractice cases are among the most technically demanding in neurological litigation. The factual questions turn on EEG waveform interpretation, seizure semiology analysis, pharmacokinetic reasoning, and evolving clinical guidelines — none of which can be adequately addressed by a generalist expert.
+
+A qualified neurology expert witness in these cases should be board-certified in neurology with subspecialty qualification in clinical neurophysiology or epilepsy. They should maintain active clinical practice including EEG reading and epilepsy patient management. They must be able to review raw EEG tracings — not just reports — and identify specific interpretation errors. And they should be familiar with current AAN practice parameters and ILAE classification systems.
+
+At NLC, our neurology expert witnesses bring active clinical epilepsy and EEG practices to every case review. This means they can identify exactly where the diagnostic process broke down — whether it was an over-read EEG, a missed seizure semiology pattern, an inappropriate drug choice, or a failure to escalate to prolonged video-EEG monitoring when the clinical picture was ambiguous.
+
+## Building the Strongest Case
+
+For plaintiff attorneys evaluating a potential epilepsy malpractice case, several elements strengthen the claim significantly. First, obtain the raw EEG data files, not just the interpretation reports. An expert witness reviewing the actual tracings can identify specific waveforms that were misread — this is often the most powerful evidence in the case. Second, document the timeline from symptom onset to correct diagnosis. Longer delays with documented intervening seizure-related injuries establish both breach and damages. Third, secure the prescribing records and pharmacy data. Drug selection errors and monitoring failures create independent liability even when the diagnosis itself was correct. Fourth, look for pattern evidence. If the diagnosing physician has a history of EEG over-reading or under-reading, this strengthens the standard-of-care argument considerably.
+
+Early engagement of a neurology expert witness — ideally during case evaluation rather than after filing — allows for proper assessment of whether the EEG interpretation and clinical decision-making fell below the standard of care.
+
+## Consultation
+
+If you are evaluating a case involving epilepsy misdiagnosis, delayed seizure diagnosis, or AED management failures, NLC's neurology expert witnesses can provide comprehensive case review, EEG re-interpretation, and standard-of-care opinions grounded in active clinical practice. Contact our team to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal or medical advice. Standards of care vary by jurisdiction.*`,
+  },
 ];
