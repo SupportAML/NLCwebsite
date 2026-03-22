@@ -308,6 +308,81 @@ If you are evaluating a case involving epilepsy misdiagnosis, delayed seizure di
 *This post is for informational purposes and does not constitute legal or medical advice. Standards of care vary by jurisdiction.*`,
   },
   {
+    slug: 'neurodegenerative-disease-misdiagnosis-malpractice',
+    title: 'Neurodegenerative Disease Misdiagnosis — A Growing Frontier in Neurology Malpractice Litigation',
+    metaDescription: 'Alzheimer\'s, Parkinson\'s, Lewy body dementia, and FTD are misdiagnosed at alarming rates. Learn how diagnostic failures create actionable malpractice claims and why a neurology expert witness is critical.',
+    date: '2026-03-22',
+    author: 'NLC Editorial',
+    keywords: ['Alzheimer\'s misdiagnosis malpractice', 'Parkinson\'s disease misdiagnosis lawsuit', 'neurodegenerative disease expert witness', 'dementia misdiagnosis attorney', 'Lewy body dementia malpractice', 'neurology diagnostic error litigation'],
+    content: `As the American population ages and neurodegenerative diseases become more prevalent, a corresponding increase in diagnostic errors is generating a new wave of neurology malpractice claims. Alzheimer's disease, Parkinson's disease, Lewy body dementia, and frontotemporal dementia each present diagnostic challenges that routinely lead to misdiagnosis — and the consequences for patients are severe.
+
+For plaintiff attorneys, neurodegenerative disease misdiagnosis represents an expanding area of liability with substantial damages potential. These cases hinge on whether the diagnosing physician followed the standard of care in conducting a differential diagnosis, ordering appropriate testing, and arriving at a clinically supported conclusion. When they didn't, patients suffer years of inappropriate treatment, accelerated decline, and lost opportunities for disease-modifying intervention.
+
+## The Scale of the Problem
+
+The misdiagnosis rates for neurodegenerative diseases are strikingly high. Clinicopathologic studies using autopsy-confirmed diagnoses show that approximately one in four patients receives an incorrect Alzheimer's disease diagnosis — split roughly evenly between false positives and false negatives. Parkinson's disease is misdiagnosed approximately 30 percent of the time, primarily because no definitive diagnostic test or imaging biomarker exists for clinical use, leaving diagnosis dependent on clinical examination, history, and treatment response.
+
+The numbers are even more concerning for less common dementias. Approximately 75 percent of patients with Lewy body dementia receive an incorrect initial diagnosis, most frequently being told they have Alzheimer's disease. Among patients eventually diagnosed with frontotemporal dementia, half previously received a different diagnosis, and nearly half saw three or more physicians before reaching the correct one.
+
+These are not rare diagnostic edge cases. They represent systemic patterns of error that cause measurable harm.
+
+## How Misdiagnosis Causes Harm
+
+The consequences of neurodegenerative disease misdiagnosis extend far beyond a wrong label in the chart.
+
+**Inappropriate medication exposure.** Patients misdiagnosed with Alzheimer's disease may be placed on cholinesterase inhibitors or memantine that provide no benefit and carry side effect risks including gastrointestinal complications, cardiac arrhythmias, and neuropsychiatric symptoms. Patients with Lewy body dementia who are incorrectly diagnosed with a primary psychiatric condition and prescribed antipsychotics face a particularly dangerous scenario — neuroleptic sensitivity in Lewy body dementia can trigger severe parkinsonism, autonomic instability, and in some cases, death.
+
+**Delayed access to appropriate treatment.** Each neurodegenerative disease has a distinct treatment approach. A patient with Parkinson's disease who is misdiagnosed with essential tremor loses months or years of dopaminergic therapy that could have preserved motor function. A patient with frontotemporal dementia misdiagnosed as Alzheimer's misses behavioral interventions and caregiver education specific to FTD symptom management.
+
+**Lost opportunity for clinical trials and emerging therapies.** With disease-modifying therapies now entering clinical practice for certain Alzheimer's subtypes, a missed or incorrect diagnosis can permanently close the window for treatments that are most effective in early disease stages.
+
+**Planning and autonomy.** An incorrect diagnosis deprives patients and families of accurate prognostic information. A patient told they have Alzheimer's when they actually have a treatable condition suffers unnecessary psychological harm. A patient whose progressive condition is missed entirely loses the opportunity to make legal, financial, and care planning decisions while they still have capacity.
+
+## Where the Standard of Care Is Breached
+
+Neurodegenerative disease diagnosis requires a methodical clinical approach. The standard of care demands a comprehensive neurological examination, detailed cognitive assessment using validated instruments, appropriate laboratory workup to exclude reversible causes of cognitive decline, neuroimaging to evaluate structural and sometimes functional brain changes, and — critically — a thorough differential diagnosis that considers the full spectrum of neurodegenerative and non-neurodegenerative conditions that can mimic each other.
+
+Common breach patterns include the following.
+
+**Anchoring on Alzheimer's without adequate differential diagnosis.** Because Alzheimer's disease is the most prevalent dementia, physicians sometimes default to the diagnosis without adequately considering Lewy body dementia, frontotemporal dementia, vascular cognitive impairment, normal pressure hydrocephalus, or reversible causes such as thyroid dysfunction, vitamin B12 deficiency, or medication side effects. The standard of care requires that these alternatives be systematically evaluated and excluded.
+
+**Failure to obtain or correctly interpret neuroimaging.** MRI patterns differ across neurodegenerative diseases — frontotemporal dementia characteristically shows frontal and temporal lobe atrophy, while Alzheimer's typically involves hippocampal and parietal atrophy. When imaging is not ordered, or when disease-specific patterns are not recognized, diagnostic accuracy suffers.
+
+**Inadequate cognitive testing.** A brief screening tool like the Mini-Mental State Examination or Montreal Cognitive Assessment can raise suspicion but cannot distinguish between dementia subtypes. The standard of care in ambiguous presentations requires formal neuropsychological testing to characterize the cognitive profile — executive dysfunction suggests frontotemporal dementia, while amnestic deficits point toward Alzheimer's.
+
+**Prescribing antipsychotics without ruling out Lewy body dementia.** Given the potentially fatal neuroleptic sensitivity in Lewy body dementia, the standard of care requires that clinicians consider this diagnosis before prescribing antipsychotic medications to any patient presenting with cognitive decline accompanied by visual hallucinations, fluctuating cognition, or parkinsonian features.
+
+## Building the Malpractice Case
+
+For plaintiff attorneys evaluating a potential neurodegenerative disease misdiagnosis claim, several elements are essential.
+
+**Establish what the physician knew and when.** Obtain the complete medical record including office visit notes, referral correspondence, imaging reports, and laboratory results. The clinical information available to the diagnosing physician at the time of diagnosis defines the standard-of-care analysis. If the record contains red flags for an alternative diagnosis that were documented but not pursued, the breach becomes clear.
+
+**Secure neuropsychological testing records.** If formal testing was performed, the cognitive profile may retrospectively support the correct diagnosis and undermine the original one. If testing was never ordered despite an ambiguous presentation, that omission itself may constitute a breach.
+
+**Obtain imaging in DICOM format.** A neurology expert witness reviewing the actual brain imaging — not just the radiology report — can identify atrophy patterns, white matter changes, or other findings consistent with the correct diagnosis that were present but not recognized at the time.
+
+**Document the harm timeline.** The interval between misdiagnosis and correct diagnosis is the damages period. During this window, quantify the inappropriate medications prescribed and their side effects, the treatments and interventions that were delayed or missed, any clinical deterioration that could have been slowed with appropriate management, and the impact on the patient's ability to make autonomous planning decisions.
+
+**Engage a neurology expert witness with subspecialty expertise.** Neurodegenerative disease cases require an expert who actively diagnoses and manages these conditions — not a general neurologist who occasionally sees dementia patients. The expert must be able to evaluate whether the differential diagnosis was adequate, whether the workup met the standard of care, and whether earlier correct diagnosis would have changed the clinical trajectory.
+
+## The Evolving Diagnostic Landscape
+
+The field of neurodegenerative disease diagnosis is advancing rapidly. Blood-based biomarkers for Alzheimer's disease — including plasma phosphorylated tau and amyloid beta ratios — are moving from research settings into clinical practice. The 2024 updated diagnostic criteria from the Alzheimer's Association now formally incorporate biomarker-based diagnosis. As these tools become standard, the expectation for diagnostic accuracy will increase, and the legal standard of care will evolve accordingly.
+
+For attorneys handling these cases now, the key insight is that even under current standards, the diagnostic error rates are high enough to suggest that many cases involve preventable failures in clinical reasoning — failures that a qualified neurology expert witness can identify and explain to a jury.
+
+## How NLC Supports Neurodegenerative Disease Cases
+
+At Neurology Legal Consulting, our board-certified neurologists include specialists with active clinical practices in cognitive neurology, movement disorders, and neurodegenerative disease management. We review cases involving Alzheimer's misdiagnosis, Parkinson's disease diagnostic errors, Lewy body dementia medication injuries, and frontotemporal dementia diagnostic delays. Our experts evaluate the complete clinical record, review neuroimaging and neuropsychological data, and provide standard-of-care opinions grounded in current diagnostic guidelines and active patient care.
+
+If you are evaluating a case involving neurodegenerative disease misdiagnosis or diagnostic delay, we are available to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal or medical advice. Diagnostic standards and malpractice requirements vary by jurisdiction.*`,
+  },
+  {
     slug: 'spinal-cord-injury-malpractice-neurology-expert-witness',
     title: 'Spinal Cord Injury Malpractice — When a Neurology Expert Witness Is Essential',
     metaDescription: 'Spinal cord injury malpractice cases demand specialized neurology expertise. Learn how diagnostic failures, surgical errors, and delayed treatment create actionable claims — and why ASIA grading and neurological prognosis require a neurology expert witness.',
