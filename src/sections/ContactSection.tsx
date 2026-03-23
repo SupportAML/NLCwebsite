@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin, Send, Linkedin, Twitter, CheckCircle } from 'lucide-react';
 
-const MAKE_WEBHOOK_URL = 'https://hook.us2.make.com/l9stsxpxqv8d785sdpuxiupjofhrnyga';
+const MAKE_WEBHOOK_URL = 'https://hook.eu1.make.com/p6lxwfe2y6qquds5rty2v43vlc2kul7k';
 const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
 export function ContactSection() {
