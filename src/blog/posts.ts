@@ -526,4 +526,113 @@ If you are evaluating a case involving spinal cord injury from surgical error, d
 
 *This post is for informational purposes and does not constitute legal or medical advice. Standards of care vary by jurisdiction.*`,
   },
+  {
+    slug: 'guillain-barre-syndrome-misdiagnosis-attorney-guide',
+    title: 'Guillain-Barré Syndrome Misdiagnosis: A Litigation Guide for Attorneys',
+    metaDescription: 'Guillain-Barré syndrome misdiagnosis and delayed treatment create serious malpractice exposure. Learn how neurology expert witnesses analyze GBS cases for attorneys.',
+    date: '2026-03-23',
+    author: 'NLC Editorial',
+    keywords: [
+      'Guillain-Barré syndrome malpractice',
+      'GBS misdiagnosis litigation',
+      'neurology expert witness GBS',
+      'acute flaccid paralysis malpractice',
+      'IVIG delayed treatment lawsuit',
+      'ascending paralysis misdiagnosis attorney',
+      'peripheral neuropathy litigation',
+    ],
+    content: `Guillain-Barré syndrome (GBS) is one of the most medically consequential neurological emergencies that emergency physicians, hospitalists, and neurologists are expected to recognize and treat promptly. When they fail — misattributing the characteristic ascending weakness to a psychiatric disorder, functional illness, metabolic imbalance, or lumbar disc disease — the consequences can be catastrophic: mechanical ventilator dependence, months of ICU care, permanent motor deficits, or death.
+
+For attorneys evaluating these cases, understanding the clinical standard of care for GBS is essential to identifying liability, establishing causation, and building a compelling damages narrative. This guide walks through the key clinical and legal dimensions of GBS misdiagnosis cases.
+
+## What Is Guillain-Barré Syndrome?
+
+Guillain-Barré syndrome is an acute immune-mediated polyneuropathy in which the body's immune system attacks the peripheral nervous system. In the most common variant — acute inflammatory demyelinating polyneuropathy (AIDP) — myelin sheaths surrounding peripheral nerve fibers are destroyed, impairing nerve conduction and causing progressive limb weakness.
+
+GBS typically follows a respiratory or gastrointestinal infection by one to four weeks. The clinical hallmark is bilateral ascending weakness: it usually begins in the legs and ascends proximally, potentially involving the arms, cranial nerves (causing facial weakness or diplopia), and respiratory muscles. Areflexia — absent deep tendon reflexes — is a cardinal feature present in nearly all cases and is detectable on a basic physical examination.
+
+Importantly, GBS progresses rapidly. Approximately 25–30% of patients develop respiratory failure requiring mechanical ventilation. The window for effective treatment with intravenous immunoglobulin (IVIG) or plasmapheresis is time-sensitive: early intervention reduces the duration of paralysis, shortens ventilator dependence, and improves long-term functional outcomes. Delays in diagnosis directly translate into worse clinical trajectories.
+
+This clinical reality — a recognizable presentation, a time-sensitive treatment window, and a devastating outcome when treatment is delayed — is what makes GBS misdiagnosis cases compelling from a medical-legal standpoint.
+
+## How GBS Gets Missed: The Diagnostic Failures Attorneys Should Recognize
+
+GBS misdiagnosis typically occurs in one of several predictable patterns. Understanding these patterns helps attorneys identify which providers bear liability and how to frame the standard-of-care argument at trial.
+
+**Misattribution to psychiatric or functional illness.** GBS can present with subjective sensory symptoms — tingling, numbness, a vague sense of weakness — before objective motor deficits become apparent. Patients who report these symptoms but are initially ambulatory are sometimes dismissed as anxious, drug-seeking, or somatizing. This is particularly common in patients with prior psychiatric history or in cases where the initial workup does not immediately reveal a clear structural cause. The failure to perform a systematic neurological examination — specifically to test deep tendon reflexes — allows a treatable neurological emergency to masquerade as a functional disorder.
+
+**Misdiagnosis as lumbar disc disease or musculoskeletal injury.** Leg weakness and back pain are common presenting complaints in emergency departments. Physicians anchored on a mechanical explanation may order lumbar spine MRI and interpret lower extremity weakness as radiculopathy. The distinguishing clinical feature — bilateral symmetric weakness with areflexia, rather than the unilateral, dermatomal pattern of disc disease — is often overlooked when the differential is narrowed prematurely.
+
+**Failure to recognize the respiratory threat.** Measuring respiratory function in a patient with progressive GBS is a mandatory standard-of-care element. Forced vital capacity (FVC) and negative inspiratory force (NIF) are bedside pulmonary function measures that predict impending respiratory failure. The "20-30-40 rule" — intubation strongly considered when FVC falls below 20 mL/kg, NIF is worse than -30 cmH₂O, or peak expiratory flow drops below 40% predicted — is a well-established clinical guideline. Failure to serially monitor these values in a patient with ascending weakness, or failure to escalate to ICU-level monitoring when they decline, constitutes a clear breach of the standard of care.
+
+**Delayed lumbar puncture and NCS/EMG.** The diagnostic workup for suspected GBS includes cerebrospinal fluid (CSF) analysis and electrophysiological testing. Classic CSF findings show albuminocytologic dissociation — elevated protein with a normal white cell count — which supports the GBS diagnosis. Nerve conduction studies (NCS) and electromyography (EMG) can confirm demyelinating or axonal neuropathy patterns. When physicians are aware of the possibility of GBS but delay these tests for non-clinical reasons — weekend staffing, competing priorities, awaiting specialist availability — the delay can constitute negligence if it meaningfully delayed treatment initiation.
+
+**Premature discharge.** Among the more egregious failures in GBS cases is discharging a patient who returns days later in respiratory failure. Emergency physicians and hospitalists who evaluate a patient with bilateral weakness and areflexia and discharge them without establishing a diagnosis, arranging urgent neurology follow-up, or providing explicit return precautions face significant liability when that patient deteriorates at home.
+
+## Establishing the Standard of Care in GBS Litigation
+
+To prevail in a GBS malpractice case, the attorney must demonstrate that the treating physician's conduct fell below the standard of care — what a reasonably competent physician in the same specialty would have done under the same circumstances.
+
+For GBS cases, the standard of care is well-supported by authoritative sources. The American Academy of Neurology (AAN) has published practice guidelines on GBS management. The Infectious Diseases Society of America, the American College of Emergency Physicians, and major emergency medicine textbooks all address GBS recognition and management. The medical literature documenting the relationship between diagnostic delay and outcomes is extensive and well-cited.
+
+In emergency medicine cases, the relevant standard involves: (1) recognizing GBS in the differential diagnosis of bilateral weakness; (2) performing a thorough neurological examination including assessment of deep tendon reflexes; (3) obtaining appropriate laboratory studies including lumbar puncture in suspected GBS; (4) arranging urgent neurology consultation; (5) admitting the patient for observation and respiratory monitoring; and (6) initiating IVIG or plasmapheresis once the diagnosis is confirmed or strongly suspected.
+
+In neurology cases, where the patient has been referred for specialist management, the standard rises to include: (1) confirming the diagnosis with NCS/EMG and CSF analysis; (2) initiating disease-modifying treatment without unnecessary delay; (3) monitoring respiratory function with serial FVC and NIF measurements; (4) planning for ICU-level care if respiratory deterioration is anticipated; and (5) communicating clearly with other treating physicians about the severity and trajectory of the disease.
+
+For the neurology expert witness, the analysis involves mapping the clinical timeline: when did the patient first present, what were their findings, what workup was ordered, when was neurology consulted, when was treatment initiated, and how does each of those intervals compare to the applicable standard?
+
+## Causation: Linking Diagnostic Delay to Patient Harm
+
+Causation in GBS cases hinges on the concept of lost opportunity — the idea that timely diagnosis and treatment would have produced a materially better outcome. This analysis requires careful attention to the medical literature on GBS prognosis and the response to early versus delayed treatment.
+
+The evidence base here is substantial. Multiple randomized controlled trials and systematic reviews establish that IVIG and plasmapheresis accelerate recovery, reduce time to independent ambulation, shorten duration of mechanical ventilation, and reduce the proportion of patients left with severe residual disability at six months and one year. The magnitude of benefit depends in part on timing: treatment initiated within the first two weeks of symptom onset generally produces better outcomes than treatment initiated later.
+
+For the causation analysis, the neurology expert witness must address several questions: How long was the patient's treatment delayed as a result of the missed or delayed diagnosis? Based on the established literature, what is the expected difference in outcome between a patient treated at the time when diagnosis should have occurred versus the time when it actually occurred? Does the patient's actual clinical trajectory — the degree of residual weakness, the duration of ventilator dependence, the functional limitations at one year — align with what the literature predicts for a patient whose treatment was delayed by the interval in question?
+
+This is nuanced work. Not every GBS patient who received delayed treatment has a viable causation claim. Some patients with mild disease (those who never required ventilation and recovered independence within weeks) may have limited damages even if the diagnosis was delayed. Conversely, patients left with permanent residual weakness — foot drop, upper extremity weakness, persistent fatigue — following delayed diagnosis and treatment present compelling causation arguments supported by the literature.
+
+One important consideration: the axonal variant of GBS (AMAN or AMSAN) carries a worse prognosis than AIDP regardless of treatment timing. A neurology expert witness who can differentiate the electrophysiological subtype — based on NCS/EMG findings — can provide more precise causation opinions and anticipate defense arguments about independent prognosis.
+
+## Damages: Building the Full Picture
+
+GBS cases generate damages across multiple categories, and attorneys should engage the expert witness early in the case to help define the scope.
+
+**ICU and hospital costs.** Severe GBS requiring mechanical ventilation typically involves weeks to months of ICU care. Tracheostomy, ventilator management, infectious complications, pressure ulcers, deep vein thrombosis prophylaxis, and physical therapy costs accumulate rapidly. In cases of delayed diagnosis, the duration of the ICU course — and its associated costs — may be directly attributable to the delay.
+
+**Rehabilitation costs.** Post-acute rehabilitation following severe GBS often involves inpatient rehab, outpatient physical and occupational therapy, and adaptive equipment. These costs may extend over years. In cases with permanent residual deficits, ongoing therapy costs may be lifelong.
+
+**Residual disability and lost earnings.** Persistent motor weakness can prevent return to prior occupation. Patients with foot drop may be unable to perform jobs requiring prolonged standing or walking. Those with upper extremity weakness may be unable to perform manual labor or fine motor tasks. The vocational impact requires coordination between the neurology expert witness and a vocational rehabilitation expert and economist.
+
+**Non-economic damages.** Weeks on a ventilator, unable to communicate, with total motor paralysis, is among the most psychologically traumatic experiences a person can endure. Patients frequently develop post-traumatic stress disorder, depression, and anxiety following severe GBS. The neurology expert witness can opine on the clinical severity of the patient's acute course and help establish the factual foundation for the pain and suffering claim.
+
+## Deposition and Trial Preparation for GBS Cases
+
+The defense in GBS malpractice cases typically pursues several lines of attack. Understanding these in advance allows attorneys to prepare their experts and structure their case more effectively.
+
+**The delayed diagnosis was not the proximate cause of the outcome.** Defense experts will argue that GBS outcomes are variable and that some patients sustain residual deficits even with timely treatment. Plaintiff's neurology expert must be prepared to address the statistical likelihood of a different outcome with earlier treatment, grounded in the peer-reviewed literature.
+
+**The presentation was atypical and not recognizable as GBS.** This argument holds most force in cases with genuinely unusual presentations — asymmetric findings, prominent sensory involvement with minimal weakness early on, or presentations without the classic antecedent infection. Plaintiff's expert should be prepared to explain which features were present that should have raised GBS on the differential, even if the overall picture was atypical.
+
+**The patient had a pre-existing neuropathy or comorbidity that explains the outcome.** Defense will sometimes introduce evidence of pre-existing diabetes, alcoholic neuropathy, or prior nerve injury to complicate the causation argument. NCS/EMG findings from before and after the acute illness, if available, can help isolate the GBS-specific injury from background neurological findings.
+
+**The treatment chosen was within acceptable practice.** For cases where IVIG was given but plasmapheresis was not (or vice versa), defense may argue that the chosen treatment was within the standard. Plaintiff's expert should be prepared to address treatment timing, not just modality selection.
+
+At trial, effective neurology expert testimony in GBS cases is often visual and narrative. Demonstrating how ascending paralysis progresses — using the clinical examination timeline in the medical record — and explaining the physiology of nerve demyelination in accessible terms helps jurors understand the severity and reversibility of the injury with timely treatment.
+
+## How NLC Approaches Guillain-Barré Syndrome Cases
+
+At Neurology Legal Consulting, our neurologist expert witnesses evaluate GBS misdiagnosis and delayed treatment cases with a systematic, literature-grounded approach. We analyze the complete clinical timeline from symptom onset through definitive treatment, identifying each interval where the standard of care required action.
+
+Our review process includes a detailed examination of emergency department and hospitalist documentation for evidence of appropriate neurological examination, documentation of deep tendon reflexes, and differential diagnosis consideration. We evaluate neurology consultation notes for timeliness, diagnostic accuracy, and treatment initiation. We review serial vital capacity and respiratory function data — or document its absence where it should have been obtained. We assess NCS/EMG and CSF findings to characterize the GBS subtype and evaluate their relation to the patient's ultimate outcome.
+
+Our experts are board-certified neurologists and neuromuscular disease specialists who maintain active clinical practices treating patients with GBS and other peripheral nerve disorders. This clinical currency is essential: it ensures our experts are thoroughly familiar with the current standard of care for GBS recognition, monitoring, and treatment, and positions them as credible, authoritative witnesses at deposition and trial.
+
+We provide case screening and preliminary opinions, comprehensive standard-of-care and causation reports, and expert witness services through deposition and trial. Our rapid turnaround — typically days to weeks — accommodates the scheduling demands of active litigation.
+
+If you are evaluating a case involving GBS misdiagnosis, delayed diagnosis, delayed treatment initiation, or inadequate respiratory monitoring, contact NLC to discuss whether the case meets the threshold for a standard-of-care breach and how our expert witnesses can support your litigation strategy.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards of care vary by jurisdiction and are subject to change as medical evidence evolves.*`,
+  },
 ];
