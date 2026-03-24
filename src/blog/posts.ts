@@ -635,4 +635,132 @@ If you are evaluating a case involving GBS misdiagnosis, delayed diagnosis, dela
 
 *This post is for informational purposes and does not constitute legal advice. Standards of care vary by jurisdiction and are subject to change as medical evidence evolves.*`,
   },
+  {
+    slug: 'multiple-sclerosis-misdiagnosis-malpractice-attorney-guide',
+    title: 'Multiple Sclerosis Misdiagnosis — A Medical Malpractice Guide for Attorneys',
+    metaDescription: 'MS misdiagnosis and diagnostic delay are among the most litigated neurology malpractice claims. Learn how McDonald criteria, MRI standards, and delayed disease-modifying therapy create liability.',
+    date: '2026-03-24',
+    author: 'NLC Editorial',
+    keywords: [
+      'multiple sclerosis misdiagnosis malpractice',
+      'MS diagnostic delay attorney guide',
+      'McDonald criteria expert witness',
+      'MS disease-modifying therapy delayed treatment',
+      'neurology malpractice expert witness',
+      'demyelinating disease misdiagnosis litigation',
+      'MS MRI standard of care',
+      'multiple sclerosis expert witness attorney',
+    ],
+    content: `Multiple sclerosis misdiagnosis is one of the most clinically and legally complex areas of neurology malpractice litigation. The condition affects an estimated one million Americans, yet research consistently shows a median diagnostic delay of three to five years from symptom onset to confirmed diagnosis. That delay has consequences — in some cases, catastrophic ones. During the years a patient's MS goes unrecognized, the disease continues to cause inflammation and axonal injury in the brain and spinal cord, accumulating neurological damage that disease-modifying therapy (DMT) could have slowed or prevented.
+
+For attorneys handling neurology malpractice cases, MS diagnostic failures offer a distinctive litigation profile: an objectively definable standard of care, measurable injury from delay, and quantifiable damages tied to accelerated disability progression. This guide walks through the clinical framework, the standard-of-care analysis, and how liability arises when diagnosis is delayed or incorrect.
+
+## The Clinical Landscape of MS: What Attorneys Need to Understand
+
+Multiple sclerosis is a chronic autoimmune disease of the central nervous system in which the immune system attacks myelin — the insulating sheath around nerve fibers — and ultimately damages the axons themselves. The result is focal neurological deficits that reflect the location of demyelinating plaques within the brain, optic nerves, or spinal cord.
+
+MS presents in several clinical patterns. **Relapsing-remitting MS (RRMS)** is the most common, affecting approximately 85% of patients at diagnosis. It is characterized by discrete episodes of neurological dysfunction (relapses or exacerbations) followed by partial or full recovery. **Primary progressive MS (PPMS)** involves gradual neurological worsening from onset without distinct relapses. **Secondary progressive MS (SPMS)** begins as relapsing-remitting but transitions to a progressive course over years.
+
+The clinical presentations that attorneys most frequently encounter in missed-diagnosis cases include:
+
+**Optic neuritis** — sudden, painful vision loss in one eye, often with a central scotoma and pain with eye movement. Optic neuritis is a presenting feature of MS in roughly 20–25% of cases and, in isolation, carries a 50% ten-year risk of developing MS.
+
+**Transverse myelitis** — focal inflammation of the spinal cord producing limb weakness, sensory level, and bladder dysfunction. Incomplete transverse myelitis is a classic MS presentation.
+
+**Brainstem syndromes** — diplopia, facial numbness, vertigo, dysarthria, or internuclear ophthalmoplegia (INO), a highly specific finding for MS that reflects a demyelinating lesion in the medial longitudinal fasciculus.
+
+**Clinically isolated syndrome (CIS)** — a single demyelinating episode. Under the 2017 McDonald criteria, a CIS with characteristic MRI findings can be formally diagnosed as MS without waiting for a second clinical episode.
+
+Understanding these presentations is essential because the standard of care for evaluating each one explicitly includes consideration of MS as a diagnosis — and failure to pursue appropriate diagnostic workup creates the foundation for malpractice liability.
+
+## The McDonald Criteria: The Standard of Care for MS Diagnosis
+
+The diagnostic standard of care for MS is defined by the McDonald criteria, first published in 2001 and most recently revised in 2017. These criteria operationalize the concept of "dissemination in space" (DIS) and "dissemination in time" (DIT) — meaning the disease has produced lesions in multiple locations within the CNS (DIS) and has done so at more than one point in time (DIT). Both requirements must be met for a diagnosis of MS.
+
+**Dissemination in space** can be demonstrated clinically (by two or more distinct neurological episodes affecting different CNS regions) or by MRI (by the presence of lesions in at least two of four characteristic locations: periventricular, juxtacortical/cortical, infratentorial, or spinal cord).
+
+**Dissemination in time** can be demonstrated by a second clinical relapse, by the simultaneous presence of enhancing and non-enhancing lesions on a single MRI (reflecting lesions of different ages), or by the appearance of a new T2 or gadolinium-enhancing lesion on a follow-up MRI compared to a baseline study.
+
+The 2017 McDonald revisions specifically expanded the criteria to allow symptomatic lesions to count toward DIS and DIT, and to permit CSF oligoclonal bands to substitute for DIT in certain scenarios. These revisions were intended to reduce diagnostic delay — their existence in the standard means that a neurologist applying the 2017 criteria correctly has more tools to make an earlier diagnosis than under prior iterations.
+
+For attorneys, the McDonald criteria are the benchmark against which the defendant clinician's diagnostic workup is measured. A neurologist who evaluates a patient with CIS symptoms and does not obtain brain and spinal cord MRI, does not order gadolinium contrast to detect enhancing lesions, or fails to follow up an abnormal initial MRI with appropriate interval imaging has deviated from the standard of care as defined by the McDonald framework.
+
+## How Diagnostic Failures Occur: The Patterns of Deviation
+
+Misdiagnosis of MS takes two forms that generate different types of litigation: **failure to diagnose MS** (missed or delayed diagnosis) and **misdiagnosis of another condition as MS** (overdiagnosis). Both categories generate malpractice cases.
+
+### Failure to Diagnose (Delayed Diagnosis)
+
+Delayed MS diagnosis typically follows one of several patterns:
+
+**Attributing neurological symptoms to psychiatric or functional causes.** Patients presenting with fatigue, cognitive difficulties, sensory disturbances, or vision changes are frequently routed to psychiatry or told their symptoms are psychosomatic. When MS is not included in the differential diagnosis, appropriate neurological workup is never ordered.
+
+**Incomplete neuroimaging.** MRI with gadolinium contrast is essential for MS evaluation. Ordering a non-contrast MRI, failing to obtain both brain and cervical spinal cord images, or using an inadequate MRI protocol (insufficient field strength, missing FLAIR sequences) can result in missed lesions and a false-negative workup.
+
+**Failure to refer to neurology.** Primary care physicians and emergency medicine physicians who evaluate patients with optic neuritis, sensory symptoms, or limb weakness are expected to recognize the possibility of a demyelinating process and refer promptly to neurology. Delay in referral — sometimes measured in months or years — is a discrete breach of the standard of care.
+
+**Misattribution of symptoms to other conditions.** MS symptoms overlap with fibromyalgia, cervical or lumbar disc disease, migraine, vitamin B12 deficiency, small fiber neuropathy, and anxiety disorders. Clinicians who accept an alternative diagnosis without ruling out MS through neuroimaging and appropriate workup may miss a diagnosis for years.
+
+**Failure to follow up abnormal imaging.** Patients who have incidental white matter lesions identified on MRI for other indications — headache, vertigo, minor head injury — and are not appropriately evaluated or followed represent a specific pattern. An incidental finding of periventricular T2 hyperintensities in a young patient warrants neurological evaluation and should prompt consideration of demyelinating disease.
+
+### Overdiagnosis of MS
+
+Though less common in litigation, MS overdiagnosis causes real harm. Patients diagnosed with MS who do not have the disease may be placed on immunomodulatory medications with significant side effect profiles — including rare but life-threatening progressive multifocal leukoencephalopathy (PML) associated with natalizumab — and may undergo years of unnecessary monitoring, anxiety, and lifestyle modifications.
+
+Overdiagnosis typically results from misapplication of the McDonald criteria, most commonly by counting non-specific white matter lesions (common in migraine, aging, or hypertension) as diagnostic of MS, or by failing to obtain CSF analysis that would reveal an absence of oligoclonal bands inconsistent with MS.
+
+## The Damages Framework: Why Diagnostic Delay Has Measurable Consequences
+
+The central question in MS delayed-diagnosis cases is whether earlier diagnosis and initiation of disease-modifying therapy would have produced a better neurological outcome. The medical literature supports this argument in several ways.
+
+**Disease-modifying therapies reduce relapse rates and slow disability progression.** All current MS DMTs — including interferon beta formulations, glatiramer acetate, natalizumab, ocrelizumab, siponimod, and others — have been shown in randomized controlled trials to reduce relapse frequency, decrease new MRI lesion burden, and, for the higher-efficacy agents, slow EDSS (Expanded Disability Status Scale) progression. Initiating DMT earlier in the disease course generally produces better outcomes than late initiation.
+
+**The "window of opportunity" concept.** Accumulating evidence suggests that early treatment may protect cognitive reserve and limit the accumulation of T1 hypointense lesions ("black holes") that reflect permanent axonal destruction. The argument that delayed diagnosis cost the patient months or years of protective therapy during the period of greatest inflammatory disease activity is scientifically and clinically supportable.
+
+**Quantifying the harm.** Neurological damages experts can quantify functional disability using validated scales (EDSS, MSFC), neuropsychological testing for cognitive impairment, and neuroimaging measures of atrophy and lesion burden. A neuroradiologist reviewing serial MRI studies can identify lesion accumulation during the period of diagnostic delay — direct radiographic evidence of uninterrupted disease activity.
+
+**Life care planning.** For plaintiffs with significant accumulated disability, a comprehensive life care plan from a physiatrist or rehabilitation specialist, informed by the neurological expert's functional assessment, is essential to establishing long-term economic damages.
+
+## Evaluating Causation: The "Earlier Diagnosis" Counterfactual
+
+The causation analysis in MS delayed-diagnosis cases requires the neurology expert to address two specific questions. First, would the patient have met the McDonald criteria for MS diagnosis at some earlier point in time if an appropriate workup had been performed? Second, would earlier initiation of disease-modifying therapy have altered the patient's clinical trajectory?
+
+The first question is often answerable by retrospective review. Medical records frequently contain documented symptoms consistent with early MS relapse that were not recognized as such. Initial MRI images obtained for other reasons may, on re-review by a neuroradiologist, reveal lesions that met the McDonald criteria at the time of imaging.
+
+The second question requires the expert to address the expected treatment response based on the patient's MS phenotype, the DMT options available at the relevant time, and the published literature on early versus delayed treatment initiation. This opinion must be delivered within the "reasonable degree of medical probability" standard and should be grounded in peer-reviewed evidence rather than speculation.
+
+Defense counsel will argue that MS is an unpredictable disease, that no DMT prevents all relapses or disability accumulation, and that earlier diagnosis would not have guaranteed a better outcome. The plaintiff's neurology expert must engage this argument directly — not by promising certainty, but by demonstrating that the probability of a better outcome was materially reduced by the diagnostic delay.
+
+## Daubert Considerations in MS Misdiagnosis Cases
+
+MS malpractice cases present several Daubert vulnerability points that plaintiff attorneys should anticipate.
+
+**Standard-of-care opinions** must be grounded in published guidelines, the McDonald criteria, and specialty society recommendations (American Academy of Neurology, National MS Society). A standard-of-care expert who cannot articulate the specific McDonald criteria requirement that was violated, or who is unfamiliar with the most recent 2017 revision, will be vulnerable on cross-examination.
+
+**Causation opinions** must navigate the inherent variability of MS disease course. Defense experts will argue that the natural history of MS is so heterogeneous that any causation opinion is speculative. The plaintiff's expert must address this by referencing clinical trial data on early versus delayed treatment, published evidence on the significance of early lesion accrual, and the specific clinical trajectory of the plaintiff before and after diagnosis.
+
+**Imaging interpretation** should be performed or reviewed by a neuroradiologist with specific experience in MS, not merely a general neurologist or radiologist. The expert who interprets the longitudinal MRI record to establish lesion accrual during the delay period will face scrutiny of their credentials and methodology.
+
+## How NLC Approaches Multiple Sclerosis Misdiagnosis Cases
+
+At Neurology Legal Consulting, we provide experienced, board-certified neurologists with specific expertise in demyelinating disease — including clinicians who maintain active clinical practices diagnosing and managing MS under the current McDonald criteria. This clinical currency is essential: our experts understand how the 2017 criteria should have been applied at the time of the alleged diagnostic failure, and they are thoroughly current on the disease-modifying therapy landscape and the evidence base for early treatment.
+
+Our case evaluation process includes comprehensive review of all available medical records and imaging studies to identify the earliest point at which the McDonald criteria were or should have been met, neuroradiology review of MRI studies to characterize lesion distribution, timing, and accrual during the period of delay, standard-of-care analysis documenting the specific deviations from the McDonald criteria evaluation pathway, and a causation opinion addressing whether earlier DMT initiation would have meaningfully altered the plaintiff's disability trajectory.
+
+We work with both plaintiff and defense counsel and can provide preliminary case screening opinions, written standard-of-care and causation reports, and expert witness services through deposition and trial. Our experts have experience withstanding Daubert scrutiny and are prepared to explain the McDonald criteria, MRI interpretation, and DMT pharmacology to lay jurors in clear, accessible terms.
+
+If you are evaluating a case involving delayed MS diagnosis, optic neuritis mismanagement, failure to refer to neurology, or inadequate MRI workup for demyelinating disease, we welcome the opportunity to discuss the medical-legal merits of your case.
+
+## How NLC Approaches Multiple Sclerosis Litigation
+
+Neurology Legal Consulting offers specialized expert witness support across the full spectrum of MS diagnostic failure cases — from the primary care physician who failed to refer a patient with optic neuritis, to the neurologist who misapplied the McDonald criteria, to the radiologist who misread an MRI study that should have triggered urgent workup.
+
+Our neurologists bring both the subspecialty depth and the active clinical experience needed to provide credible, defensible opinions in these cases. We can match your case with an expert whose clinical background aligns specifically with the standard-of-care issue at stake — whether that is the diagnostic evaluation of a first demyelinating event, the initiation of high-efficacy DMT, or the longitudinal MRI monitoring standard.
+
+Contact NLC to discuss whether your MS malpractice case has the clinical foundation for a viable expert opinion, and how our experts can help you build a persuasive evidentiary record.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards of care vary by jurisdiction and are subject to change as medical evidence evolves.*`,
+  },
 ];
