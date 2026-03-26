@@ -969,4 +969,102 @@ Whether your case involves bacterial meningitis with catastrophic hearing loss, 
 
 *This post is for informational purposes and does not constitute legal advice. Standards of care vary by jurisdiction and are subject to change as medical evidence evolves.*`,
   },
+  {
+    slug: 'daubert-challenges-neurology-expert-witnesses',
+    title: 'Daubert Challenges to Neurology Expert Witnesses — What Attorneys Need to Know',
+    metaDescription: 'A comprehensive guide for attorneys on how Daubert challenges apply to neurology expert witnesses — including common exclusion grounds, methodology requirements, and how to build a neurological expert opinion that survives judicial scrutiny.',
+    date: '2026-03-26',
+    author: 'NLC Editorial',
+    keywords: [
+      'Daubert challenge neurology expert witness',
+      'expert witness exclusion neurology',
+      'Daubert standard medical expert',
+      'neurology expert witness methodology',
+      'Frye standard neurology',
+      'expert witness qualification neurology litigation',
+      'Kumho Tire neurology expert',
+      'neurology expert witness deposition',
+    ],
+    content: `## Why Daubert Challenges Are a Front-Line Battleground in Neurology Litigation
+
+In neurology litigation — whether a traumatic brain injury case, a stroke misdiagnosis claim, a toxic exposure matter, or a neurodegenerative disease malpractice action — the expert witness is not merely an asset. The expert witness is the case. Without a qualified neurologist who can articulate a standard of care deviation and causation opinion that satisfies the federal rules of evidence, even the strongest factual record can be dismissed before it reaches a jury.
+
+The *Daubert v. Merrell Dow Pharmaceuticals* decision, issued by the United States Supreme Court in 1993, fundamentally changed the role of the trial judge in evaluating expert testimony. Under *Daubert*, the judge acts as a gatekeeper, deciding not just whether an expert is credentialed, but whether the expert's methodology is scientifically valid and reliably applied to the specific facts of the case. The subsequent *Kumho Tire Co. v. Carmichael* decision in 1999 extended this gatekeeping function to all expert testimony — not just testimony based on novel science — making *Daubert* analysis applicable to virtually every expert witness in federal court.
+
+For attorneys handling neurological injury and malpractice cases, *Daubert* challenges are not theoretical risk. They are routine litigation tactics. Defense counsel in catastrophic neurological injury cases routinely file motions to exclude or limit plaintiff's neurology experts, and courts grant those motions with meaningful frequency. Understanding what makes a neurology expert vulnerable to exclusion — and how to select, develop, and defend an expert who can survive judicial scrutiny — is essential to preserving the case.
+
+## The Four Daubert Factors and How They Apply to Neurology Opinions
+
+The original *Daubert* decision identified four non-exhaustive factors that trial courts may consider when evaluating expert testimony: (1) whether the theory or technique has been tested; (2) whether it has been subjected to peer review and publication; (3) the known or potential error rate; and (4) whether it has gained general acceptance in the relevant scientific community. Courts emphasize that the inquiry is flexible — no single factor is determinative — but each factor has practical implications for neurology expert opinions.
+
+**Testability.** A neurology expert's opinion about causation must be based on methodology that is capable of testing and verification. Opinions based purely on clinical intuition — "in my clinical judgment, this head trauma caused the plaintiff's cognitive decline" — without reference to diagnostic criteria, imaging findings, validated assessment tools, or published literature are vulnerable to exclusion. Courts expect the expert to articulate a methodology: how did they reach their opinion, and could another qualified physician following the same methodology reach the same conclusion? In TBI cases, for example, the methodology for establishing post-traumatic cognitive impairment should reference validated neuropsychological testing, imaging correlates, and published natural history data, not simply the physician's ipse dixit.
+
+**Peer Review and Publication.** The neurological causation theories underlying expert opinions must be grounded in peer-reviewed literature. An expert who asserts that a specific neurotoxin causes peripheral neuropathy, or that a specific cervical spine injury pattern causes a particular radiculopathy, must be able to point to published studies supporting that causal mechanism. Opinions that rest on unpublished data, personal clinical series, or theoretical mechanisms that have not been vetted in the peer-reviewed neuroscience literature are exposed to exclusion. Importantly, the literature cited must be current — a neurology expert who relies on outdated studies while ignoring contradicting recent literature may be challenged on intellectual rigor.
+
+**Known or Potential Error Rate.** In neurology practice, diagnostic instruments have known sensitivity and specificity profiles. EEG interpretation, neuropsychological testing, and neuroimaging analysis each carry quantifiable accuracy parameters. A neurology expert who applies diagnostic criteria without acknowledging the inherent error rates — or who relies on a test result at the edge of its clinical validity — is vulnerable to cross-examination and potential exclusion. Courts look favorably on experts who can quantify uncertainty: "The MRI finding I am relying on has a sensitivity of approximately 85 percent for diffuse axonal injury in moderate TBI" is more Daubert-sound than "The MRI shows brain damage."
+
+**General Acceptance.** The standard of care and causation theories underlying a neurological expert opinion should reflect the mainstream of neurological practice. Opinions that deviate from American Academy of Neurology (AAN) guidelines, published diagnostic criteria (such as those in the *Diagnostic and Statistical Manual* or ICD-11 for neurological disorders), or the consensus of peer-reviewed literature are vulnerable to the general acceptance challenge. This does not mean experts are precluded from offering opinions on contested scientific questions — but it does mean the expert must be able to locate their opinion within the existing scientific literature rather than asking the court to accept a position held by only a fringe minority of practitioners.
+
+## Common Grounds for Exclusion of Neurology Expert Witnesses
+
+Experience with neurology expert witness challenges reveals several recurring patterns that lead to exclusion or limitation of expert testimony. Attorneys should be aware of these vulnerabilities when selecting and preparing their experts.
+
+**Lack of subspecialty qualification.** Courts increasingly scrutinize whether the expert's actual practice matches the opinions they offer. A general internist offering opinions about the neurological standard of care in a stroke diagnosis case — even one who trained in neurology decades ago — is vulnerable to exclusion if they cannot demonstrate active clinical engagement with stroke evaluation and management. Similarly, a general neurologist offering opinions about neurosurgical timing decisions may be found unqualified to opine on the neurosurgical standard of care. The rule of thumb is that the expert should be qualified to perform or supervise the clinical activities at issue in the case.
+
+**Failure to articulate a reliable methodology.** This is the most common basis for successful Daubert exclusion of medical experts. Courts regularly exclude expert opinions that amount to nothing more than "based on my review of the records, the defendant deviated from the standard of care." What was the methodology? What criteria were applied? What sources were consulted? A neurology expert who cannot explain how they identified the applicable standard of care — what guidelines, what literature, what institutional protocols — and how they applied that standard to the specific facts of the case is unlikely to survive a well-crafted Daubert motion.
+
+**Cherry-picking the literature.** Courts have excluded medical expert testimony where the expert selectively cited studies supporting their opinion while ignoring contrary literature. In neurology, this issue arises frequently in causation contexts: toxic exposure cases where the causal literature is contested; mild TBI cases where the relationship between a specific mechanism of injury and long-term cognitive sequelae is actively debated; and neurodegenerative disease cases where the natural history data are uncertain. An expert who presents only one side of a legitimate scientific debate without acknowledging the contrary evidence — or who misrepresents the weight of the literature — is vulnerable to exclusion on reliability grounds.
+
+**Unreliable differential diagnosis.** The "differential diagnosis" methodology — identifying possible causes of a condition and systematically eliminating alternatives — is well-established in medical expert testimony and recognized by courts as a reliable methodology when properly applied. However, courts exclude differential diagnosis opinions when the expert fails to meaningfully consider alternative causes, when they rule out alternatives without adequate explanation, or when they identify a cause through a process of elimination that is not supported by published criteria. In a TBI case, an expert who attributes cognitive decline to the subject head trauma without adequately considering pre-existing cognitive impairment, psychiatric disease, medication effects, or competing neurological conditions is vulnerable to exclusion.
+
+**Opinions that exceed the scope of the data.** Courts exclude neurology expert opinions when the conclusion outstrips the evidentiary foundation. Asserting that a brief period of hypoxia caused permanent hippocampal injury in a plaintiff who had a full neurological exam the following day requires the expert to explain, through published literature, how the duration and severity of hypoxia correlates with the type of injury asserted. When the imaging shows no objective correlate of the claimed injury and the neuropsychological testing results are equivocal, an expert who nonetheless asserts permanent neurological impairment "to a reasonable degree of medical certainty" based primarily on the plaintiff's subjective complaints may find that certainty challenged successfully in a Daubert motion.
+
+## Frye vs. Daubert: State Court Considerations
+
+While *Daubert* governs federal proceedings, not every state has adopted the *Daubert* standard. Approximately a third of states continue to apply the older *Frye v. United States* standard, which requires that scientific evidence be based on methods "generally accepted" in the relevant scientific community. Several large litigation states — including New York and California — apply Frye or a modified version of it.
+
+For attorneys practicing in Frye jurisdictions, the practical implications differ somewhat from Daubert. Frye analysis centers on whether the scientific community has accepted the underlying methodology, not on the trial judge's independent evaluation of the methodology's validity. This can cut both ways: in Frye jurisdictions, a neurology expert relying on well-established clinical methodology is less vulnerable to exclusion based on the judge's independent scientific evaluation, but a novel causation theory — such as a newly proposed link between a specific toxin and a particular neurological disorder — faces the challenge of proving general scientific acceptance, which requires more than citing supportive literature.
+
+The practical takeaway for attorneys is that the applicable evidentiary standard should be part of the expert selection and retention strategy. An expert whose opinion is grounded in published guidelines, established diagnostic criteria, and peer-reviewed causation literature is well-positioned to survive scrutiny under either standard.
+
+## Preparing a Neurology Expert Witness to Withstand Daubert Scrutiny
+
+The gatekeeping function of *Daubert* begins long before the motion is filed. The methodology underlying the expert's opinion should be developed, documented, and defensible from the moment of retention. Attorneys who treat expert witness preparation as a deposition exercise — something that happens after the expert report is submitted — frequently find themselves scrambling to rehabilitate opinions that were inadequately grounded from the outset.
+
+**Retain the right expert for the specific case.** The expert's active clinical background should match the clinical issues in the case. A case involving delayed stroke recognition in the emergency department requires a neurologist with active inpatient stroke coverage, familiarity with tPA and thrombectomy protocols, and engagement with current AHA/ASA stroke guidelines. A case involving epilepsy monitoring unit management requires a neurologist with direct experience in epilepsy monitoring. Credentials alone are insufficient — courts look at actual clinical activity.
+
+**Require a written methodology before the report.** Before the expert drafts their report, require them to articulate in writing: what standard-of-care framework they are applying; what published guidelines or literature supports that framework; how they are applying causation methodology to the facts; and what alternative explanations they considered and why they rejected them. This written methodology becomes the foundation of a Daubert-resistant report.
+
+**Address the literature comprehensively.** The expert's report and deposition preparation should address not only the literature supporting the opinion, but the principal contrary positions in the literature. Neurology expert opinions that anticipate and address counterarguments are more credible and more durable than opinions that present only one side. Attorneys who allow their experts to submit reports without engaging with the defense literature will face predictable cross-examination and Daubert motion arguments.
+
+**Document the differential diagnosis.** In causation cases, the differential diagnosis process should be explicit in the expert report. What alternative causes were considered? What is the published basis for ruling them out in this case? A documented differential diagnosis process is one of the most reliable defenses against Daubert exclusion in medical causation cases.
+
+**Prepare for methodology deposition questions.** Defense counsel in neurology cases routinely take methodology-focused depositions designed to create a record for a Daubert motion. The expert will be asked: what methodology did you use; what literature did you rely on; what is the error rate of the diagnostic instruments you used; did you consider alternative explanations; and why did you reach the level of certainty expressed in your report. Experts who are unprepared for methodology questioning — who answer in generalities, who cannot cite the specific literature supporting their opinion, or who become defensive when confronted with contrary data — create Daubert motions.
+
+## Defending Against Daubert Motions in Neurology Cases
+
+When a Daubert motion is filed against your neurology expert, the response strategy depends on the specific grounds raised. Several principles apply across the common challenge types.
+
+**Reliability, not credibility, is the standard.** Courts are not supposed to evaluate whether the expert's opinion is correct — only whether the methodology used to reach it is reliable. Daubert motions that argue the defendant's expert is more persuasive, or that the plaintiff's expert reached the wrong conclusion, should be challenged on this ground. The Daubert inquiry ends at the courtroom door: it is a threshold screening, not a merits determination.
+
+**Methodology challenges are often factual disputes.** When the Daubert challenge argues that the expert failed to consider alternative explanations or cherry-picked the literature, the response often includes affidavits or supplemental materials from the expert addressing those specific allegations. Courts regularly allow supplemental expert materials in response to Daubert motions, particularly where the challenge rests on what the expert did or did not consider rather than whether the underlying science is valid.
+
+**Qualification challenges require a careful evidentiary record.** If the defense argues that the expert lacks the specific subspecialty experience to opine on the clinical issues at issue, the response requires building an evidentiary record of the expert's relevant clinical experience: case volume, relevant publications, institutional appointments, and continuing medical education. Curriculum vitae alone is often insufficient — courts want to see that the expert is actively engaged with the clinical activities at issue, not simply credentialed in the general field.
+
+## How NLC Approaches Daubert Challenges
+
+At Neurology Legal Consulting, we understand that the value of an expert witness is measured not by credentials alone, but by the durability of their methodology under adversarial scrutiny. We retain and prepare neurology experts specifically with Daubert resistance in mind.
+
+Every NLC expert develops opinions grounded in published AAN guidelines, peer-reviewed neurological literature, and established clinical methodology. Our experts are active, credentialed practitioners — not retired or dormant clinicians — who engage with current evidence-based standards in their daily clinical work. Their opinions are developed through a structured methodology: standard-of-care framework, differential causation analysis, literature support for causation theories, and an explicit accounting of alternative explanations considered and rejected.
+
+We work with attorneys from the initial case evaluation through expert report drafting and deposition preparation, ensuring that the methodological foundation of the expert's opinion is documented, comprehensive, and built to withstand both cross-examination and Daubert challenge. Where defense experts raise specific methodology challenges, we assist attorneys in analyzing those challenges and identifying the most effective response strategy — including supplemental expert materials where appropriate.
+
+Our panel includes subspecialty neurologists, neuroradiologists, neurosurgeons, neuropsychologists, and physical medicine specialists, allowing us to match the specific clinical issues in each case to the appropriate subspecialty expertise. We do not present generalists as subspecialists. We do not submit opinions that outstrip the available evidence. And we prepare every expert for the reality that the deposition and any Daubert hearing are as consequential as the trial itself.
+
+If you are handling a neurological injury or malpractice case and need an expert whose opinion will survive judicial gatekeeping, contact NLC for a case evaluation.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
