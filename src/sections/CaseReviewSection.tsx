@@ -37,8 +37,9 @@ export function CaseReviewSection() {
             </h2>
 
             <p className="text-lg text-text-secondary leading-relaxed max-w-lg">
-              We analyze records, imaging, and timelines to identify strengths,
-              risks, and the key questions that will matter in litigation.
+              We analyze records, imaging, and timelines to deliver a clear merit
+              assessment — identifying case strengths, risks, and the clinical questions
+              that will drive settlement or trial strategy.
             </p>
 
             <Button

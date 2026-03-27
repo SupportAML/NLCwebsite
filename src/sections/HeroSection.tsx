@@ -36,9 +36,9 @@ export function HeroSection() {
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
-                Clinically active. Trial-proven. Zero malpractice history. Board-certified
-                neurologists providing case review, independent medical exams, and expert
-                testimony for complex litigation.
+                Retained by plaintiff and defense counsel nationwide. Board-certified,
+                clinically active physicians delivering case review, IMEs, and expert
+                testimony — on your timeline, ready for Daubert.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -47,7 +47,7 @@ export function HeroSection() {
                   size="lg"
                   className="bg-electric hover:bg-electric/90 text-white font-medium px-8 py-6 rounded-full transition-all hover:-translate-y-1 hover:shadow-lg flex items-center gap-2"
                 >
-                  Request a consult
+                  Submit a Case Inquiry
                   <ArrowRight size={20} />
                 </Button>
               </div>

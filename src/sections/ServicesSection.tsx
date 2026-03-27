@@ -37,8 +37,9 @@ export function ServicesSection() {
 
             {/* Body */}
             <p className="text-text-secondary leading-relaxed mb-8 max-w-md">
-              From initial record review to deposition and trial, we deliver clear,
-              defensible opinions rooted in current evidence and clinical experience.
+              From initial record review to deposition and trial, we deliver Daubert-ready
+              opinions rooted in current evidence and active clinical practice — built to
+              withstand cross-examination.
             </p>
 
             {/* Service List */}
@@ -63,7 +64,7 @@ export function ServicesSection() {
             variant="outline"
             className="w-fit mt-6 border-electric text-electric hover:bg-electric hover:text-white font-medium px-6 py-3 rounded-full transition-all flex items-center gap-2"
           >
-            See all services
+            Request CV & Fee Schedule
             <ArrowRight size={18} />
           </Button>
         </div>

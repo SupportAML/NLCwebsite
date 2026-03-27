@@ -34,9 +34,9 @@ export function ApproachSection() {
 
             {/* Body */}
             <p className="text-text-secondary leading-relaxed mb-8">
-              We work closely with legal teams to define the medical questions that
-              matter, then deliver opinions that are thorough, consistent, and
-              trial-ready.
+              We work directly with attorneys to define the medical questions that
+              matter for your case strategy, then deliver opinions that are thorough,
+              consistent, and built to hold up at deposition and trial.
             </p>
 
             {/* Credentials List */}
@@ -59,7 +59,7 @@ export function ApproachSection() {
             variant="outline"
             className="w-fit mt-6 border-electric text-electric hover:bg-electric hover:text-white font-medium px-6 py-3 rounded-full transition-all flex items-center gap-2"
           >
-            Learn more about us
+            Request a Consultation
             <ArrowRight size={18} />
           </Button>
         </div>

@@ -73,8 +73,8 @@ export function PracticeAreasSection() {
               PRACTICE AREAS WE SERVE
             </h2>
             <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-              We provide a comprehensive, multi-specialty neurology team — all
-              clinically active and delivering rapid, reliable case reviews.
+              A comprehensive, multi-specialty physician team — all clinically active,
+              board-certified, and experienced in deposition and trial testimony.
             </p>
           </div>
 

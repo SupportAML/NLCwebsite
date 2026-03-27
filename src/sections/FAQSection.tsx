@@ -4,29 +4,39 @@ import { ChevronDown, ArrowRight, MessageCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'How quickly can you turn around a case review?',
+    question: 'What is your turnaround for case review and expert reports?',
     answer:
-      'Most case reviews are completed within 7–10 business days, depending on the complexity and volume of records. Rush services are available for urgent matters.',
+      'Most case reviews are completed within 7–10 business days, depending on the complexity and volume of records. We regularly accommodate expedited timelines for discovery cutoffs, deposition deadlines, and trial preparation. Let us know your dates when you submit your inquiry.',
   },
   {
-    question: 'Do you testify for both plaintiff and defense?',
+    question: 'Do your experts testify for both plaintiff and defense?',
     answer:
-      'Yes. We provide objective, evidence-based opinions regardless of which side retains us. Our credibility depends on consistency and intellectual honesty.',
+      'Yes. We provide objective, evidence-based opinions regardless of which side retains us. Our experts maintain credibility through consistency and intellectual honesty — the same standard of care analysis applies regardless of who is asking.',
   },
   {
-    question: 'What are your fees and billing practices?',
+    question: 'Will your experts withstand a Daubert or Frye challenge?',
     answer:
-      'We offer transparent hourly rates and flat-fee arrangements for certain services. Detailed invoices are provided monthly, and we require a modest retainer to begin work.',
+      'Every physician on our team is board-certified, clinically active, and practicing in the subspecialty relevant to your case. We proactively align expert credentials to the specific neurological condition at issue, ensuring qualification holds up under the strictest scrutiny.',
   },
   {
-    question: 'What specialties do you cover?',
+    question: 'What are your fees and how does billing work?',
     answer:
-      'Our team includes neurologists (adult and pediatric), neurosurgeons, anesthesiologists, radiologists, pharmacists, and internal medicine specialists.',
+      'We offer transparent hourly rates and flat-fee arrangements for case review. A fee schedule and CV are provided within one business day of your inquiry. We require a modest retainer to begin work, with detailed monthly invoices.',
   },
   {
-    question: 'Are your physicians available nationwide?',
+    question: 'What specialties and subspecialties do you cover?',
     answer:
-      'Yes. Our physicians hold licenses in multiple states and are available for case review, IMEs, and testimony nationwide.',
+      'Our team covers neurology (adult and pediatric), neurosurgery, anesthesiology and pain medicine, radiology and neuroradiology, physical medicine and rehabilitation, pharmacotherapy, internal medicine, gastroenterology, and critical care medicine.',
+  },
+  {
+    question: 'Do you run conflict checks before engagement?',
+    answer:
+      'Yes. We conduct a conflict check before any case engagement to ensure there are no existing relationships or prior involvement that would compromise our expert\'s objectivity or create an ethical issue for your case.',
+  },
+  {
+    question: 'Are your physicians available for testimony nationwide?',
+    answer:
+      'Yes. Our physicians hold licenses in multiple states and are available for case review, IMEs, deposition, and trial testimony nationwide. We can also arrange in-person IMEs at locations convenient for your client.',
   },
 ];
 
@@ -54,7 +64,7 @@ export function FAQSection() {
               COMMON QUESTIONS
             </h2>
             <p className="text-lg text-text-secondary">
-              Everything you need to know about working with our expert team.
+              What attorneys ask us before retaining an expert.
             </p>
           </div>
 

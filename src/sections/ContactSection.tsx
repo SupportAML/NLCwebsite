@@ -2,17 +2,43 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send, Linkedin, Twitter, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
 
-const MAKE_WEBHOOK_URL = 'https://hook.eu1.make.com/p6lxwfe2y6qquds5rty2v43vlc2kul7k';
-const CONTACT_EMAIL = 'support@apexmedlaw.com';
+const CONTACT_EMAIL = 'info@neurolegalconsulting.com';
+
+const CASE_TYPES = [
+  'Medical Malpractice',
+  'Personal Injury',
+  'IME (Independent Medical Examination)',
+  'Criminal',
+  'Workers\' Compensation',
+  'Other',
+];
+
+const PHYSICIAN_SPECIALTIES = [
+  'Neurology – Adult',
+  'Neurology – Pediatric',
+  'Neurosurgery',
+  'Anesthesiology & Pain Medicine',
+  'Radiology & Neuroradiology',
+  'Physical Medicine & Rehabilitation',
+  'Pharmacotherapy',
+  'Internal Medicine & Gastroenterology',
+  'Critical Care Medicine',
+];
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
+    lawFirm: '',
     email: '',
     phone: '',
+    caseTypes: [] as string[],
+    otherCaseType: '',
+    specialties: [] as string[],
+    urgentDeadline: '' as '' | 'yes' | 'no',
+    deadlineDetails: '',
     caseDetails: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -25,20 +51,30 @@ export function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      const res = await fetch(MAKE_WEBHOOK_URL, {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           firstName: formData.firstName,
           lastName: formData.lastName,
+          lawFirm: formData.lawFirm,
           email: formData.email,
           phone: formData.phone,
+          caseTypes: formData.caseTypes,
+          otherCaseType: formData.otherCaseType,
+          specialties: formData.specialties,
+          urgentDeadline: formData.urgentDeadline,
+          deadlineDetails: formData.deadlineDetails,
           caseDetails: formData.caseDetails,
         }),
       });
       if (!res.ok) throw new Error('Submission failed');
       setSubmitted(true);
-      setFormData({ firstName: '', lastName: '', email: '', phone: '', caseDetails: '' });
+      setFormData({
+        firstName: '', lastName: '', lawFirm: '', email: '', phone: '',
+        caseTypes: [], otherCaseType: '', specialties: [],
+        urgentDeadline: '', deadlineDetails: '', caseDetails: '',
+      });
     } catch {
       setSubmitError(`Something went wrong. Please email us directly at ${CONTACT_EMAIL}.`);
     } finally {
@@ -52,6 +88,24 @@ export function ContactSection() {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
+    }));
+  };
+
+  const toggleCaseType = (type: string) => {
+    setFormData((prev) => ({
+      ...prev,
+      caseTypes: prev.caseTypes.includes(type)
+        ? prev.caseTypes.filter((t) => t !== type)
+        : [...prev.caseTypes, type],
+    }));
+  };
+
+  const toggleSpecialty = (specialty: string) => {
+    setFormData((prev) => ({
+      ...prev,
+      specialties: prev.specialties.includes(specialty)
+        ? prev.specialties.filter((s) => s !== specialty)
+        : [...prev.specialties, specialty],
     }));
   };
 
@@ -70,16 +124,16 @@ export function ContactSection() {
             <div className="space-y-8">
               <div>
                 <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-4">
-                  Contact Us
+                  Retain an Expert
                 </span>
                 <h2 className="display-heading text-display-lg text-white mb-4">
-                  READY WHEN
+                  SUBMIT A
                   <br />
-                  <span className="text-electric">YOU ARE</span>
+                  <span className="text-electric">CASE INQUIRY</span>
                 </h2>
                 <p className="text-lg text-white/70 leading-relaxed">
-                  Tell us about your case and timeline. We respond within one
-                  business day.
+                  Tell us about your case, timeline, and specialty needs. We respond
+                  within one business day with expert availability, CV, and fee schedule.
                 </p>
               </div>
 
@@ -152,15 +206,16 @@ export function ContactSection() {
                       <CheckCircle size={40} className="text-electric" />
                     </div>
                     <h3 className="font-display font-bold text-2xl text-foreground mb-3">
-                      Inquiry Sent
+                      Inquiry Received
                     </h3>
                     <p className="text-text-secondary">
-                      Thank you for reaching out. We'll be in touch within one business
-                      day.
+                      Thank you for reaching out. We'll respond within one business
+                      day with expert availability, CV, and fee schedule.
                     </p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
+                    {/* Name Row */}
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
@@ -190,6 +245,22 @@ export function ContactSection() {
                       </div>
                     </div>
 
+                    {/* Law Firm (mandatory) */}
+                    <div>
+                      <label className="block text-sm font-medium text-foreground mb-2">
+                        Law Firm or Organization *
+                      </label>
+                      <Input
+                        name="lawFirm"
+                        value={formData.lawFirm}
+                        onChange={handleChange}
+                        placeholder="Smith & Associates LLP"
+                        required
+                        className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
+                      />
+                    </div>
+
+                    {/* Email + Phone Row */}
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
@@ -220,6 +291,121 @@ export function ContactSection() {
                       </div>
                     </div>
 
+                    {/* Case Type (optional toggle chips) */}
+                    <div>
+                      <label className="block text-sm font-medium text-foreground mb-3">
+                        Case Type <span className="text-text-secondary font-normal">(select all that apply)</span>
+                      </label>
+                      <div className="flex flex-wrap gap-2">
+                        {CASE_TYPES.map((type) => (
+                          <button
+                            key={type}
+                            type="button"
+                            onClick={() => toggleCaseType(type)}
+                            className={`px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
+                              formData.caseTypes.includes(type)
+                                ? 'bg-electric text-white border-electric'
+                                : 'bg-white text-foreground border-border hover:border-electric/50'
+                            }`}
+                          >
+                            {type}
+                          </button>
+                        ))}
+                      </div>
+                      {formData.caseTypes.includes('Other') && (
+                        <Input
+                          name="otherCaseType"
+                          value={formData.otherCaseType}
+                          onChange={handleChange}
+                          placeholder="Please specify case type"
+                          className="mt-3 w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
+                        />
+                      )}
+                    </div>
+
+                    {/* Physician Specialty (optional toggle chips) */}
+                    <div>
+                      <label className="block text-sm font-medium text-foreground mb-3">
+                        Specialty Needed <span className="text-text-secondary font-normal">(select all that apply)</span>
+                      </label>
+                      <div className="flex flex-wrap gap-2">
+                        {PHYSICIAN_SPECIALTIES.map((specialty) => (
+                          <button
+                            key={specialty}
+                            type="button"
+                            onClick={() => toggleSpecialty(specialty)}
+                            className={`px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
+                              formData.specialties.includes(specialty)
+                                ? 'bg-electric text-white border-electric'
+                                : 'bg-white text-foreground border-border hover:border-electric/50'
+                            }`}
+                          >
+                            {specialty}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Urgent Deadline (mandatory) */}
+                    <div>
+                      <label className="block text-sm font-medium text-foreground mb-3">
+                        Urgent Deadline? *
+                      </label>
+                      <div className="flex gap-3 mb-2">
+                        <button
+                          type="button"
+                          onClick={() => setFormData((prev) => ({ ...prev, urgentDeadline: 'yes' }))}
+                          className={`flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-medium border transition-all ${
+                            formData.urgentDeadline === 'yes'
+                              ? 'bg-amber-50 text-amber-800 border-amber-400'
+                              : 'bg-white text-foreground border-border hover:border-electric/50'
+                          }`}
+                        >
+                          <AlertTriangle size={16} className={formData.urgentDeadline === 'yes' ? 'text-amber-600' : 'text-text-secondary'} />
+                          Yes
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setFormData((prev) => ({ ...prev, urgentDeadline: 'no', deadlineDetails: '' }))}
+                          className={`px-5 py-3 rounded-xl text-sm font-medium border transition-all ${
+                            formData.urgentDeadline === 'no'
+                              ? 'bg-electric/10 text-electric border-electric'
+                              : 'bg-white text-foreground border-border hover:border-electric/50'
+                          }`}
+                        >
+                          No
+                        </button>
+                      </div>
+                      {formData.urgentDeadline === 'yes' && (
+                        <div className="mt-3">
+                          <Textarea
+                            name="deadlineDetails"
+                            value={formData.deadlineDetails}
+                            onChange={handleChange}
+                            placeholder="e.g., Expert report due April 15, 2026; deposition scheduled May 1"
+                            rows={2}
+                            className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric resize-none"
+                          />
+                          <p className="mt-2 text-xs text-text-secondary leading-relaxed">
+                            If you're facing a discovery cutoff, Daubert challenge deadline, or trial date,
+                            let us know. We regularly accommodate expedited timelines for case review,
+                            report delivery, and deposition preparation.
+                          </p>
+                        </div>
+                      )}
+                      {/* Hidden required input for form validation */}
+                      <input
+                        type="text"
+                        required
+                        value={formData.urgentDeadline}
+                        onChange={() => {}}
+                        className="sr-only"
+                        tabIndex={-1}
+                        aria-hidden="true"
+                      />
+                    </div>
+
+                    {/* Case Details */}
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         Case Details *
@@ -228,9 +414,9 @@ export function ContactSection() {
                         name="caseDetails"
                         value={formData.caseDetails}
                         onChange={handleChange}
-                        placeholder="Tell us about your case and what you need..."
+                        placeholder="Briefly describe the matter, the neurological issues involved, and what you need from an expert (e.g., case merit review, IME, deposition, trial testimony)..."
                         required
-                        rows={5}
+                        rows={4}
                         className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric resize-none"
                       />
                     </div>
@@ -267,7 +453,7 @@ export function ContactSection() {
           <footer className="mt-20 pt-8 border-t border-white/10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
               <p className="text-white/50 text-sm">
-                © 2024 Neurology Legal Consulting. All Rights Reserved.
+                © 2026 Neurology Legal Consulting. All Rights Reserved.
               </p>
               <div className="flex items-center gap-6">
                 <a
