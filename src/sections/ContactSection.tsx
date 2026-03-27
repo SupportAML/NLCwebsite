@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
 
-const CONTACT_EMAIL = 'info@neurolegalconsulting.com';
+const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
 const CASE_TYPES = [
   'Medical Malpractice',

@@ -1,9 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const TO_EMAIL = 'info@neurolegalconsulting.com';
-const CC_EMAIL = 'support@apexmedlaw.com';
-const FROM_EMAIL = 'NLC Website <noreply@apexmedlaw.com>';
+const TO_EMAIL = 'support@apexmedlaw.com';
+const FROM_EMAIL = 'NLC Website <noreply@updates.apexmedlaw.com>';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
@@ -44,7 +43,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       body: JSON.stringify({
         from: FROM_EMAIL,
         to: [TO_EMAIL],
-        cc: [CC_EMAIL],
         reply_to: email,
         subject: `${subjectPrefix}New Case Inquiry from ${name} — ${lawFirm}`,
         html: `
