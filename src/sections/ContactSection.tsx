@@ -395,7 +395,7 @@ export function ContactSection() {
 
           {/* Footer */}
           <footer className="mt-20 pt-8 border-t border-white/10">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-4">
               <p className="text-white/50 text-sm">
                 © 2026 Neurology Legal Consulting. All Rights Reserved.
               </p>
@@ -421,6 +421,20 @@ export function ContactSection() {
                   LinkedIn
                 </a>
               </div>
+            </div>
+            <div className="text-center pt-4 border-t border-white/5">
+              <p className="text-white/40 text-xs">
+                Part of the{' '}
+                <a
+                  href="https://www.apexmedlaw.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/60 hover:text-electric transition-colors underline"
+                >
+                  ApexMedLaw
+                </a>
+                {' '}family
+              </p>
             </div>
           </footer>
         </div>
