@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin, Send, Linkedin, Twitter, CheckCircle } from 'lucide-react';
 
-const CONTACT_EMAIL = 'info@neurolegalconsulting.com';
+const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -85,7 +85,7 @@ export function ContactSection() {
               {/* Contact Info */}
               <div className="space-y-4">
                 <a
-                  href="mailto:info@neurolegalconsulting.com"
+                  href="mailto:support@apexmedlaw.com"
                   className="flex items-center gap-4 text-white/80 hover:text-electric transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-white/10 group-hover:bg-electric/20 flex items-center justify-center transition-colors">
@@ -93,7 +93,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Email</p>
-                    <p className="font-medium">info@neurolegalconsulting.com</p>
+                    <p className="font-medium">support@apexmedlaw.com</p>
                   </div>
                 </a>
 
