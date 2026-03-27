@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
 
 const CONTACT_EMAIL = 'info@neurolegalconsulting.com';
 
@@ -29,14 +29,12 @@ const PHYSICIAN_SPECIALTIES = [
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    name: '',
     lawFirm: '',
     email: '',
     phone: '',
-    caseTypes: [] as string[],
-    otherCaseType: '',
-    specialties: [] as string[],
+    caseType: '',
+    specialty: '',
     urgentDeadline: '' as '' | 'yes' | 'no',
     deadlineDetails: '',
     caseDetails: '',
@@ -55,14 +53,12 @@ export function ContactSection() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          firstName: formData.firstName,
-          lastName: formData.lastName,
+          name: formData.name,
           lawFirm: formData.lawFirm,
           email: formData.email,
           phone: formData.phone,
-          caseTypes: formData.caseTypes,
-          otherCaseType: formData.otherCaseType,
-          specialties: formData.specialties,
+          caseType: formData.caseType,
+          specialty: formData.specialty,
           urgentDeadline: formData.urgentDeadline,
           deadlineDetails: formData.deadlineDetails,
           caseDetails: formData.caseDetails,
@@ -71,8 +67,8 @@ export function ContactSection() {
       if (!res.ok) throw new Error('Submission failed');
       setSubmitted(true);
       setFormData({
-        firstName: '', lastName: '', lawFirm: '', email: '', phone: '',
-        caseTypes: [], otherCaseType: '', specialties: [],
+        name: '', lawFirm: '', email: '', phone: '',
+        caseType: '', specialty: '',
         urgentDeadline: '', deadlineDetails: '', caseDetails: '',
       });
     } catch {
@@ -91,21 +87,12 @@ export function ContactSection() {
     }));
   };
 
-  const toggleCaseType = (type: string) => {
+  const handleSelectChange = (
+    e: React.ChangeEvent<HTMLSelectElement>
+  ) => {
     setFormData((prev) => ({
       ...prev,
-      caseTypes: prev.caseTypes.includes(type)
-        ? prev.caseTypes.filter((t) => t !== type)
-        : [...prev.caseTypes, type],
-    }));
-  };
-
-  const toggleSpecialty = (specialty: string) => {
-    setFormData((prev) => ({
-      ...prev,
-      specialties: prev.specialties.includes(specialty)
-        ? prev.specialties.filter((s) => s !== specialty)
-        : [...prev.specialties, specialty],
+      [e.target.name]: e.target.value,
     }));
   };
 
@@ -139,20 +126,7 @@ export function ContactSection() {
 
               {/* Contact Info */}
               <div className="space-y-4">
-                <a
-                  href="mailto:info@neurolegalconsulting.com"
-                  className="flex items-center gap-4 text-white/80 hover:text-electric transition-colors group"
-                >
-                  <div className="w-12 h-12 rounded-xl bg-white/10 group-hover:bg-electric/20 flex items-center justify-center transition-colors">
-                    <Mail size={22} className="text-electric" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-white/50">Email</p>
-                    <p className="font-medium">info@neurolegalconsulting.com</p>
-                  </div>
-                </a>
-
-                <a
+                <
                   href="tel:9193077949"
                   className="flex items-center gap-4 text-white/80 hover:text-electric transition-colors group"
                 >
@@ -215,34 +189,19 @@ export function ContactSection() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
-                    {/* Name Row */}
-                    <div className="grid sm:grid-cols-2 gap-5">
-                      <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
-                          First Name *
-                        </label>
-                        <Input
-                          name="firstName"
-                          value={formData.firstName}
-                          onChange={handleChange}
-                          placeholder="John"
-                          required
-                          className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-foreground mb-2">
-                          Last Name *
-                        </label>
-                        <Input
-                          name="lastName"
-                          value={formData.lastName}
-                          onChange={handleChange}
-                          placeholder="Doe"
-                          required
-                          className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
-                        />
-                      </div>
+                    {/* Name */}
+                    <div>
+                      <label className="block text-sm font-medium text-foreground mb-2">
+                        Name *
+                      </label>
+                      <Input
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        placeholder="John Doe"
+                        required
+                        className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
+                      />
                     </div>
 
                     {/* Law Firm (mandatory) */}
@@ -291,58 +250,43 @@ export function ContactSection() {
                       </div>
                     </div>
 
-                    {/* Case Type (optional toggle chips) */}
-                    <div>
-                      <label className="block text-sm font-medium text-foreground mb-3">
-                        Case Type <span className="text-text-secondary font-normal">(select all that apply)</span>
-                      </label>
-                      <div className="flex flex-wrap gap-2">
-                        {CASE_TYPES.map((type) => (
-                          <button
-                            key={type}
-                            type="button"
-                            onClick={() => toggleCaseType(type)}
-                            className={`px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
-                              formData.caseTypes.includes(type)
-                                ? 'bg-electric text-white border-electric'
-                                : 'bg-white text-foreground border-border hover:border-electric/50'
-                            }`}
-                          >
-                            {type}
-                          </button>
-                        ))}
+                    {/* Case Type (dropdown) */}
+                    <div className="grid sm:grid-cols-2 gap-5">
+                      <div>
+                        <label className="block text-sm font-medium text-foreground mb-2">
+                          Case Type
+                        </label>
+                        <select
+                          name="caseType"
+                          value={formData.caseType}
+                          onChange={handleSelectChange}
+                          className="w-full px-4 py-3 rounded-xl border border-border bg-white text-foreground text-sm focus:border-electric focus:ring-1 focus:ring-electric focus:outline-none appearance-none"
+                          style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 12px center' }}
+                        >
+                          <option value="">Select case type...</option>
+                          {CASE_TYPES.map((type) => (
+                            <option key={type} value={type}>{type}</option>
+                          ))}
+                        </select>
                       </div>
-                      {formData.caseTypes.includes('Other') && (
-                        <Input
-                          name="otherCaseType"
-                          value={formData.otherCaseType}
-                          onChange={handleChange}
-                          placeholder="Please specify case type"
-                          className="mt-3 w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric"
-                        />
-                      )}
-                    </div>
 
-                    {/* Physician Specialty (optional toggle chips) */}
-                    <div>
-                      <label className="block text-sm font-medium text-foreground mb-3">
-                        Specialty Needed <span className="text-text-secondary font-normal">(select all that apply)</span>
-                      </label>
-                      <div className="flex flex-wrap gap-2">
-                        {PHYSICIAN_SPECIALTIES.map((specialty) => (
-                          <button
-                            key={specialty}
-                            type="button"
-                            onClick={() => toggleSpecialty(specialty)}
-                            className={`px-3 py-2 rounded-lg text-sm font-medium border transition-all ${
-                              formData.specialties.includes(specialty)
-                                ? 'bg-electric text-white border-electric'
-                                : 'bg-white text-foreground border-border hover:border-electric/50'
-                            }`}
-                          >
-                            {specialty}
-                          </button>
-                        ))}
+                      {/* Physician Specialty (dropdown) */}
+                      <div>
+                        <label className="block text-sm font-medium text-foreground mb-2">
+                          Specialty Needed
+                        </label>
+                        <select
+                          name="specialty"
+                          value={formData.specialty}
+                          onChange={handleSelectChange}
+                          className="w-full px-4 py-3 rounded-xl border border-border bg-white text-foreground text-sm focus:border-electric focus:ring-1 focus:ring-electric focus:outline-none appearance-none"
+                          style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 12px center' }}
+                        >
+                          <option value="">Select specialty...</option>
+                          {PHYSICIAN_SPECIALTIES.map((specialty) => (
+                            <option key={specialty} value={specialty}>{specialty}</option>
+                          ))}
+                        </select>
                       </div>
                     </div>
 
@@ -416,7 +360,7 @@ export function ContactSection() {
                         onChange={handleChange}
                         placeholder="Briefly describe the matter, the neurological issues involved, and what you need from an expert (e.g., case merit review, IME, deposition, trial testimony)..."
                         required
-                        rows={4}
+                        rows={8}
                         className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric resize-none"
                       />
                     </div>

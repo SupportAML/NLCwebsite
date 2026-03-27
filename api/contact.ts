@@ -16,22 +16,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const {
-    firstName, lastName, lawFirm, email, phone,
-    caseTypes, otherCaseType, specialties,
+    name, lawFirm, email, phone,
+    caseType, specialty,
     urgentDeadline, deadlineDetails, caseDetails,
   } = req.body;
 
-  if (!firstName || !lastName || !lawFirm || !email || !caseDetails || !urgentDeadline) {
+  if (!name || !lawFirm || !email || !caseDetails || !urgentDeadline) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
-  const caseTypeDisplay = caseTypes && caseTypes.length > 0
-    ? caseTypes.map((t: string) => t === 'Other' && otherCaseType ? `Other: ${otherCaseType}` : t).join(', ')
-    : 'Not specified';
-
-  const specialtyDisplay = specialties && specialties.length > 0
-    ? specialties.join(', ')
-    : 'Not specified';
+  const caseTypeDisplay = caseType || 'Not specified';
+  const specialtyDisplay = specialty || 'Not specified';
 
   const urgentDisplay = urgentDeadline === 'yes'
     ? `⚠️ YES${deadlineDetails ? ` — ${deadlineDetails}` : ''}`
@@ -51,13 +46,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         to: [TO_EMAIL],
         cc: [CC_EMAIL],
         reply_to: email,
-        subject: `${subjectPrefix}New Case Inquiry from ${firstName} ${lastName} — ${lawFirm}`,
+        subject: `${subjectPrefix}New Case Inquiry from ${name} — ${lawFirm}`,
         html: `
           <h2>New Case Inquiry</h2>
           <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
             <tr>
               <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee; width: 160px;">Name</td>
-              <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${firstName} ${lastName}</td>
+              <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${name}</td>
             </tr>
             <tr>
               <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Law Firm</td>
