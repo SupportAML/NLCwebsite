@@ -1660,4 +1660,133 @@ If you are evaluating or litigating an anoxic or hypoxic brain injury case and n
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'crps-rsd-personal-injury-workers-compensation-litigation-attorney-guide',
+    title: 'Complex Regional Pain Syndrome (CRPS/RSD) in Personal Injury and Workers\' Compensation Litigation — An Attorney\'s Guide',
+    metaDescription: 'CRPS and RSD are among the most disputed diagnoses in personal injury and workers\' comp litigation. Learn how neurological expert witnesses prove causation, establish severity, and counter defense challenges.',
+    date: '2026-04-04',
+    author: 'NLC Editorial',
+    keywords: ['CRPS expert witness', 'complex regional pain syndrome litigation', 'RSD workers compensation', 'CRPS malpractice', 'neurology expert witness chronic pain', 'CRPS causation attorney guide', 'reflex sympathetic dystrophy litigation'],
+    content: `## Overview: Why CRPS Cases Are Among the Most Contested in Civil Litigation
+
+Complex Regional Pain Syndrome — known historically as Reflex Sympathetic Dystrophy (RSD) or causalgia — is one of the most litigated and most misunderstood neurological conditions in the civil justice system. Attorneys handling personal injury cases, workers' compensation claims, and medical malpractice matters encounter CRPS with increasing frequency, and the battles over diagnosis, causation, severity, and permanency are among the most expert-intensive in all of litigation.
+
+CRPS is a chronic pain condition characterized by severe, burning pain; changes in skin color, temperature, and texture; swelling; and movement abnormalities in a limb — typically following a relatively minor injury, surgery, or medical procedure. The disproportionate intensity of the pain relative to the precipitating event is the hallmark feature, and it is also the central point of attack by defense experts who argue that the condition is exaggerated, psychosomatic, or simply a normal response to injury.
+
+Understanding the neuroscience behind CRPS — and knowing how to retain, prepare, and present a qualified neurology expert witness — is essential to litigating these cases effectively on either side of the caption.
+
+## The Clinical Framework: What CRPS Is and What It Is Not
+
+CRPS exists in two subtypes. **CRPS Type I** (the former RSD) occurs without a documented nerve injury and is the more common form encountered in personal injury and workers' compensation cases. It typically follows fractures, crush injuries, soft tissue trauma, immobilization, or surgical procedures. **CRPS Type II** (causalgia) involves a confirmed peripheral nerve injury and tends to present with more pronounced sensory abnormalities in the distribution of the injured nerve.
+
+The diagnosis is clinical, established using the **Budapest Criteria** — the internationally validated diagnostic standard adopted by the International Association for the Study of Pain (IASP). The Budapest Criteria require that a patient demonstrate, at minimum:
+
+- **Continuing pain disproportionate to the inciting event**
+- Symptoms and signs in at least three of four categories: sensory (allodynia, hyperalgesia), vasomotor (temperature asymmetry, skin color changes), sudomotor/edema (sweating abnormalities, edema), and motor/trophic (decreased range of motion, weakness, tremor, skin/hair/nail changes)
+- No other diagnosis better explaining the symptoms and signs
+
+Meeting the Budapest Criteria — and documenting them contemporaneously and systematically — is the clinical foundation upon which legally valid CRPS cases rest. One of the most common failures in CRPS litigation is the absence of rigorous, contemporaneous clinical documentation that maps each diagnostic criterion to objective or quantifiable findings.
+
+The pathophysiology of CRPS is now understood to involve **central and peripheral sensitization**, abnormal sympathetic nervous system activity, neuroinflammatory processes, and cortical reorganization in somatosensory and motor cortex. It is a genuine neurological condition with measurable neurological substrates — though, as in all pain conditions, the subjective experience cannot be directly measured with a lab test or imaging study. This evidentiary gap is exactly where expert testimony becomes decisive.
+
+## Common Triggers in Litigation: How CRPS Arises in Legal Claims
+
+In personal injury litigation, CRPS most commonly arises following:
+
+**Trauma from motor vehicle accidents.** Fractures, sprains, or crush injuries sustained in collisions — even relatively minor ones — can trigger CRPS in predisposed individuals. The disproportionality of the outcome to the apparent severity of the collision is a recurring defense theme that neurological experts must address head-on.
+
+**Workplace injuries.** In workers' compensation contexts, upper extremity injuries — wrist fractures, crush injuries, repetitive strain injuries requiring surgery — are among the leading precipitants. CRPS following workplace injury frequently becomes a permanent and total disability claim when it progresses to involve the entire limb.
+
+**Surgical complications.** CRPS following orthopedic procedures, particularly carpal tunnel release, knee arthroscopy, shoulder surgery, and joint replacement, generates substantial medical malpractice exposure. When CRPS develops postoperatively, the question is whether the surgery was performed within the standard of care, whether informed consent encompassed the risk of CRPS, and whether postoperative monitoring and early management were adequate.
+
+**Injections and minimally invasive procedures.** CRPS following nerve blocks, spinal injections, or other pain management procedures raises standard of care questions about technique and patient selection.
+
+**Medical device implantation.** Implantation of spinal cord stimulators — a common treatment for CRPS itself — occasionally precipitates new CRPS or worsens existing disease, creating complex causation puzzles.
+
+## Causation: The Central Battlefield in CRPS Litigation
+
+Causation in CRPS cases involves two distinct questions that attorneys must disentangle clearly: **general causation** (can the type of event at issue cause CRPS?) and **specific causation** (did this specific event cause this patient's CRPS?).
+
+**General causation** is generally well-established in the medical literature for common precipitants. Peer-reviewed literature, IASP position papers, and major neurology and pain medicine textbooks document the association between trauma, surgery, immobilization, and CRPS development. A qualified neurology or pain medicine expert should be able to present this evidence cohesively.
+
+**Specific causation** is where defense challenges are most intense. The critical issues are:
+
+**Temporal proximity.** CRPS symptoms should develop within weeks to months of the precipitating event. A well-documented clinical timeline showing the onset and progressive evolution of symptoms following the index event — rather than a history reconstructed years later in a lawsuit — is the most powerful evidence of specific causation.
+
+**Alternative causation.** Defense experts will scrutinize the claimant's full medical history for pre-existing pain conditions, somatoform disorders, psychiatric diagnoses, prior litigation, or other injuries that could explain the presentation. A neurologist who has reviewed the complete medical records and can systematically address and distinguish each alternative explanation strengthens the causation narrative.
+
+**The "eggshell plaintiff" doctrine.** Defendants cannot escape liability merely because the plaintiff was more susceptible than average to developing CRPS. The tortfeasor takes the plaintiff as they find them. Neurology experts can explain why certain individuals — those with prior nerve injuries, certain genetic profiles, prior sensitization events — are at elevated risk while still establishing that the defendant's conduct was the precipitating cause.
+
+**Predisposition versus causation.** One of the most common defense arguments is that a pre-existing condition "would have caused CRPS anyway." This argument requires a temporal framework rebuttal: if the plaintiff was functioning without CRPS before the event and developed it following the event, the defendant's conduct accelerated or precipitated a condition that, but for the defendant's conduct, may not have manifested at the time or to the degree it did.
+
+## Diagnosing and Quantifying CRPS: What Objective Evidence Exists
+
+The absence of a definitive laboratory test or pathognomonic imaging finding for CRPS is its most exploited evidentiary vulnerability. Defense experts and adjusters routinely characterize CRPS as an unverifiable, subjective diagnosis — a "wastebasket" diagnosis applied when physicians cannot explain chronic pain. An effective neurology expert must be prepared to counter this narrative with the objective evidence that does exist.
+
+**Thermography and infrared imaging** can document temperature asymmetry between affected and unaffected limbs — one of the Budapest Criteria diagnostic categories. When performed by a qualified laboratory using validated protocols, thermography can provide objective, measurable documentation of autonomic nervous system dysfunction.
+
+**Quantitative Sensory Testing (QST)** maps sensory thresholds — including sensitivity to heat, cold, mechanical pressure, and vibration — across dermatomes and can document allodynia and hyperalgesia objectively. QST findings that correlate with the clinical distribution of CRPS symptoms support the diagnosis with measurable data.
+
+**Three-phase bone scanning** can demonstrate increased uptake in the affected limb in acute and subacute CRPS, reflecting increased bone turnover from disuse and vasomotor dysregulation. While not specific to CRPS, consistent findings in the appropriate clinical context support the diagnosis.
+
+**Sympathetic skin response testing** and other electrodiagnostic studies can document sudomotor dysfunction.
+
+**Radiographic findings** in longstanding CRPS include patchy osteoporosis of the affected limb — a direct consequence of disuse and vasomotor changes. Plain X-rays demonstrating this finding, along with a clinical history consistent with CRPS, reinforce the diagnosis.
+
+**Functional MRI and cortical mapping** research has demonstrated measurable reorganization of somatosensory cortex in CRPS patients — a direct neurological substrate for the severity and distribution of pain that does not exist in conditions characterized as purely psychosomatic.
+
+The qualified neurology expert's role is to synthesize these objective findings with the clinical examination, the documented history, the diagnostic criteria, and the peer-reviewed literature into a coherent opinion that withstands Daubert scrutiny.
+
+## Workers' Compensation Specific Issues: Compensability and Permanent Disability
+
+CRPS in workers' compensation settings raises several issues that are distinct from personal injury litigation. Attorneys representing injured workers or employers must understand the workers' compensation framework for CRPS to litigate effectively.
+
+**Compensability** is established by demonstrating that a work-related incident is the medical cause of the CRPS. The evidentiary standards in workers' compensation vary significantly by jurisdiction — some states apply a "major contributing cause" standard, others apply "any contributing cause" analysis, and others use presumptions or rebuttable presumptions for certain categories of injury. A neurology expert who understands both the clinical causation analysis and the jurisdiction-specific legal standard is essential.
+
+**Apportionment** is another recurring issue. When the claimant has a prior injury to the same limb, or a prior pain condition, defense carriers will argue for apportionment of permanent disability between industrial and non-industrial causes. The neurology expert must provide an opinion on the extent to which the occupational event caused, aggravated, accelerated, or combined with pre-existing conditions to produce the current level of impairment.
+
+**Permanent disability ratings** in CRPS cases are complex and frequently contested. Most states use AMA Guides to the Evaluation of Permanent Impairment (now in its 6th Edition, though some jurisdictions still apply the 5th) for permanent impairment rating. CRPS presents challenges under the AMA Guides framework because the guides do not always map cleanly onto a condition that involves autonomic, sensory, and motor dysfunction that may affect the entire limb without a discrete nerve injury. An experienced rating physician — ideally a neurologist or physiatrist — who understands both the clinical features of CRPS and the rating methodology applicable in the relevant jurisdiction is invaluable.
+
+**Return-to-work and vocational implications.** CRPS that progresses to involve the dominant upper extremity or either lower extremity can result in permanent and total disability from any occupation requiring physical labor. Even desk work can be precluded when allodynia extends to keyboard use or when medications cause cognitive effects. A treating neurologist's opinion on functional capacity, combined with a vocational rehabilitation expert's analysis, builds the complete disability picture.
+
+**Medication and treatment causation.** Workers' compensation carriers frequently dispute whether ongoing medications — particularly opioids, ketamine infusions, spinal cord stimulators, and intrathecal drug delivery systems — are caused by and related to the industrial injury. The neurology expert must connect each treatment modality to the CRPS diagnosis and demonstrate that treatment is consistent with evidence-based pain management guidelines.
+
+## Defense Strategies and How Plaintiff's Neurology Experts Respond
+
+Understanding defense attack vectors prepares plaintiff's attorneys and their experts for deposition and trial. The most common defense approaches in CRPS litigation include:
+
+**Challenging the diagnosis.** Defense experts — frequently general orthopedists or general physicians rather than neurologists or pain medicine specialists — will argue that the Budapest Criteria are not met, that symptom documentation is inadequate, or that the presentation is atypical. The response is meticulous clinical record review demonstrating systematic satisfaction of each diagnostic criterion over the documented clinical course, with an expert who has subspecialty expertise in neurology and pain disorders.
+
+**Psychological attribution.** Defense experts may argue that CRPS is a psychosomatic or functional pain disorder driven by anxiety, depression, secondary gain, or malingering. This attack requires a comprehensive response addressing the neurobiological substrates of CRPS, the objective findings supporting organic pathology, and the well-documented psychiatric comorbidity of CRPS — which, like other chronic pain conditions, is a consequence rather than a cause of the pain syndrome.
+
+**Symptom magnification.** Defense neuropsychologists or functional capacity evaluators may allege symptom magnification based on performance validity testing. A qualified pain medicine neurologist can explain the limitations of symptom validity assessment in the context of CRPS, including the documented impairment of cognitive processing by chronic severe pain.
+
+**Causation gaps.** Defense experts will scrutinize the interval between the precipitating event and the first documented CRPS-compatible symptoms. Gaps in treatment, delays in diagnosis, or initial documentation of recovery can be exploited. A neurology expert familiar with the clinical trajectory of CRPS — including the phenomenon of delayed diagnosis and the common initial dismissal of early CRPS symptoms as normal post-injury findings — can contextualize these gaps within the natural history of the condition.
+
+**Treatment non-compliance.** Defense may argue that failure to pursue specific treatment modalities (physical therapy, sympathetic nerve blocks, spinal cord stimulation) constitutes failure to mitigate damages. A treating or reviewing neurologist can explain the evidence base for various CRPS treatments, the documented difficulty of physical therapy in the setting of severe allodynia, and why certain interventional treatments were declined, ineffective, or contraindicated.
+
+## Damages in CRPS Cases
+
+CRPS damages presentations require coordination between the neurology expert and multiple supporting experts.
+
+**Past and future medical expenses** in CRPS cases are frequently substantial. Ongoing medication costs, pain specialist visits, interventional procedures, psychological support, and potentially spinal cord stimulation implantation — which may require battery replacement every several years — accumulate to significant lifetime medical costs. A life care planner with experience in CRPS, informed by the treating and reviewing neurologist's prognosis, can project these costs with the precision required for jury presentation.
+
+**Non-economic damages.** The pain associated with CRPS — particularly allodynia, in which normally innocuous contact with the skin causes severe pain — is profoundly disabling and difficult for jurors to conceptualize. CRPS is frequently described as one of the most severe chronic pain conditions measurable on standardized pain scales. Neurology experts who can translate the neurophysiology of central sensitization into terms that explain why a light touch causes agony — and why this is not exaggeration but a documented neurological phenomenon — are essential to damages presentation.
+
+**Loss of consortium and family impact** in severe CRPS cases is significant. The condition's effect on the claimant's ability to engage in family activities, maintain relationships, and fulfill parenting roles is documentable through the clinical record and lay witness testimony, supported by the neurologist's functional assessment.
+
+## How NLC Approaches CRPS and RSD Cases
+
+Neurology Legal Consulting connects attorneys with the expert witnesses best positioned to meet the complex demands of CRPS and RSD litigation. We understand that these cases require neurologists and pain medicine specialists who practice in active clinical settings — physicians who diagnose and treat CRPS in their current practices, who are current on the Budapest Criteria, who understand the differential diagnosis, and who can explain the neurobiological basis of the syndrome to lay jurors.
+
+Our experts perform comprehensive medical record reviews that map the clinical documentation to the diagnostic criteria, identify temporal landmarks in the condition's development, and construct the causation analysis required to withstand both Daubert challenges and cross-examination. We can assist with expert selection for plaintiff or defense in personal injury, workers' compensation, and medical malpractice matters involving CRPS across all phases of litigation.
+
+We also understand the multi-disciplinary nature of CRPS cases and can coordinate with life care planners, vocational rehabilitation experts, and neuropsychologists to ensure that the neurology expert's clinical opinions integrate cohesively with the full damages picture.
+
+If you are evaluating or actively litigating a CRPS or RSD matter and need expert neurology support, contact NLC for a case consultation.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
