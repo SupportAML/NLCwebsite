@@ -12,6 +12,7 @@ const navLinks = [
   { label: 'Testimony', href: '#testimony' },
   { label: 'IME', href: '#ime' },
   { label: 'Blog', href: '/blog', isRoute: true },
+  { label: 'Join Our Team', href: '/join', isRoute: true },
   { label: 'Contact', href: '#contact' },
 ];
 
