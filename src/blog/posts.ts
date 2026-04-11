@@ -2044,4 +2044,90 @@ NLC also offers rapid turnaround for case screening and initial case evaluation,
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'vertebral-artery-dissection-cervical-manipulation-litigation-attorney-guide',
+    title: 'Vertebral Artery Dissection After Cervical Manipulation: A Litigation Guide for Attorneys',
+    metaDescription: 'An attorney-focused guide to vertebral artery dissection following chiropractic or cervical spine manipulation — clinical presentation, standards of care, causation analysis, and the role of neurology expert witnesses in litigation.',
+    date: '2026-04-11',
+    author: 'NLC Editorial',
+    keywords: [
+      'vertebral artery dissection',
+      'chiropractic malpractice',
+      'cervical manipulation stroke',
+      'neurology expert witness',
+      'posterior circulation stroke litigation',
+      'arterial dissection causation',
+      'VAD lawsuit attorney',
+      'cervical artery dissection litigation',
+    ],
+    content: `Few neurological injuries generate as much legal and medical controversy as vertebral artery dissection (VAD) following cervical spine manipulation. When a patient presents for routine neck pain treatment and leaves with a catastrophic posterior circulation stroke, the litigation that follows turns on highly technical questions: Did the manipulation cause the dissection, or merely reveal a dissection already in progress? Were there warning signs the practitioner should have recognized? Was the standard of care violated in the initial encounter, the post-manipulation period, or the emergency department evaluation that followed? For attorneys handling these cases on either side, the answers require neurology expert witnesses who understand cerebrovascular anatomy, the biomechanics of the upper cervical spine, and the diagnostic algorithms that govern evaluation of suspected dissection.
+
+This guide provides attorneys with the clinical and medicolegal framework necessary to evaluate vertebral artery dissection cases, identify the decision points where standard-of-care failures commonly occur, and understand the causation disputes that typically dominate both plaintiff and defense strategy.
+
+## The Clinical Problem: Anatomy, Mechanism, and Outcomes
+
+The vertebral arteries are paired vessels that ascend through the transverse foramina of the cervical vertebrae (typically C6 through C1), loop over the posterior arch of the atlas, pierce the dura, and join to form the basilar artery. This anatomy creates a fundamental vulnerability: the segment of the vertebral artery between C2 and the foramen magnum — the V3 segment — is subject to substantial stretch and rotation during normal neck movements, and even greater forces during high-velocity cervical manipulation.
+
+Dissection occurs when a tear develops in the inner layer of the arterial wall, allowing blood to track between layers and form an intramural hematoma. This hematoma can narrow or occlude the lumen, disrupt laminar flow, and — critically — serve as a nidus for thrombus formation. Emboli from the dissection site travel distally to the posterior cerebral, superior cerebellar, posterior inferior cerebellar, or basilar arteries, producing strokes in the brainstem, cerebellum, thalamus, and occipital lobes. The neurological consequences range from isolated vertigo and ataxia to devastating basilar artery occlusion with locked-in syndrome or death.
+
+The epidemiology of vertebral artery dissection is important for attorneys to understand. Spontaneous dissection is a recognized entity, with an annual incidence of roughly 1 to 1.5 per 100,000, accounting for approximately 2 percent of all ischemic strokes but a much higher proportion of strokes in younger patients. Risk factors include connective tissue disorders (Ehlers-Danlos type IV, fibromuscular dysplasia, Marfan syndrome), recent infection, hypertension, migraine, and minor trauma. This baseline incidence forms the backdrop against which defense experts will argue in manipulation-related cases that the dissection occurred independently of the treatment.
+
+The clinical presentation of vertebral artery dissection is notoriously variable and often biphasic. Patients typically present first with head or neck pain — frequently described as unlike any prior headache, often occipital or posterior-cervical in location. This pain may be accompanied by nonspecific symptoms such as dizziness, nausea, or neck stiffness. The ischemic phase, in which cerebellar and brainstem symptoms emerge, may follow within minutes, hours, or days of the initial pain. Classic posterior-circulation symptoms include vertigo, diplopia, dysarthria, dysphagia, ataxia, hemianopia, and the "five D's" syndrome. Unfortunately, the earliest symptoms are often mistaken for migraine, benign positional vertigo, or musculoskeletal neck pain — a diagnostic pitfall with enormous medicolegal implications.
+
+## The Manipulation Question: Causation, Association, and Biological Plausibility
+
+The central causation question in manipulation-related VAD litigation is whether cervical spine manipulation causes dissection or merely provokes symptoms in a dissection that had already occurred and brought the patient in for pain treatment. Both plaintiff and defense experts will invoke the peer-reviewed literature to support their positions, and an expert witness who cannot fluently discuss that literature will not survive Daubert scrutiny.
+
+From a biomechanical standpoint, there is no serious dispute that high-velocity, low-amplitude (HVLA) cervical manipulation imposes forces on the vertebral artery. Cadaveric and computational studies have demonstrated that rotation and extension — particularly in the upper cervical spine — produce stretching and narrowing of the V3 segment of the vertebral artery. Whether those forces exceed the threshold for intimal injury in a structurally normal artery is far less clear, and this is where expert testimony often becomes most technical.
+
+Epidemiologic studies have produced conflicting results. Some case-control studies have shown statistical associations between chiropractic visits and vertebral artery dissection in the days and weeks preceding a stroke. Defense experts frequently counter that these associations reflect reverse causation — that patients with early symptoms of dissection (neck pain and headache) seek manipulative treatment, and the timing of the subsequent stroke is coincidental with, rather than caused by, the manipulation. Plaintiff experts point to temporal proximity, mechanical plausibility, and case series in which dissection developed immediately following manipulation with no prior symptoms.
+
+A skilled neurology expert witness will be able to walk attorneys and fact-finders through this literature with precision, articulate the strengths and weaknesses of each study, and explain the biological plausibility of manipulation-induced injury in terms that do not overstate the science. Experts who rely on oversimplified or polemical accounts of causation — in either direction — are vulnerable to exclusion under Daubert and to effective cross-examination at trial.
+
+Critically, causation in these cases is rarely a binary question. Even where pre-existing dissection is suspected, plaintiff counsel may establish liability by showing that the manipulation extended the dissection, triggered embolization from an existing intramural hematoma, or occurred at a time when reasonable screening should have identified warning symptoms and contraindicated the treatment. The forensic reconstruction of the dissection timeline is therefore central to the case.
+
+## Standard of Care for Pre-Manipulation Screening
+
+Regardless of whether the defendant is a chiropractor, osteopathic physician, physical therapist, or medical doctor, anyone performing cervical manipulation is expected to screen for contraindications. The elements of that screening, when compared against the actual clinical encounter, often form the core of plaintiff theories in these cases.
+
+A competent screening history should identify the character of the patient's pain, with particular attention to any recent onset of a headache or neck pain that is new, severe, or unlike prior episodes. Descriptions of "the worst headache of my life," thunderclap onset, associated nausea, visual disturbance, or vertigo are all red flags that should prompt deferral of manipulation and medical evaluation. A history of recent trauma — even seemingly minor trauma such as a whiplash injury, sports impact, or even aggressive stretching — is likewise significant. Patients with known connective tissue disorders, fibromuscular dysplasia, recent cervical or cranial infection, or prior arterial dissection warrant particular caution.
+
+The physical examination, though limited, should include a focused neurological assessment. Nystagmus, cranial nerve deficits, limb ataxia, dysarthria, or any history of transient ischemic symptoms in the preceding days should absolutely preclude cervical manipulation pending further evaluation. The absence of documented screening — or documentation that is perfunctory or templated — is frequently the most consequential evidence in establishing a breach of the standard of care.
+
+When plaintiff counsel reviews the clinical record with a neurology expert, the expert will look specifically for the presence or absence of red-flag screening, the documentation of informed consent regarding the risks of manipulation (including stroke), and whether the practitioner considered and ruled out the need for imaging or medical referral before applying high-velocity treatment. Informed-consent failures, in particular, have become an increasingly important theory of liability in manipulation-related VAD cases.
+
+## The Post-Manipulation Period: Recognition and Response
+
+The post-manipulation clinical course is often where the most actionable failures occur. Patients who develop new or worsening headache, neck pain, dizziness, or any focal neurologic symptoms after manipulation require urgent evaluation for possible dissection or stroke. A practitioner who continues treatment, reassures the patient, or attributes new symptoms to "normal post-adjustment response" without performing a focused neurologic examination faces significant exposure.
+
+The medical literature makes clear that early recognition of vertebral artery dissection can dramatically alter outcomes. Patients evaluated in the window before completed stroke may be candidates for antithrombotic therapy, endovascular intervention, or — in rare selected cases — thrombolysis. Delay in recognition transforms a potentially recoverable vascular injury into a completed stroke with permanent neurologic deficits.
+
+For emergency department physicians and neurologists who evaluate patients after manipulation, the diagnostic algorithm is well-established. Any patient with post-manipulation neck pain and neurologic symptoms warrants vascular imaging of the cervical arteries. CT angiography and MR angiography are both acceptable modalities, with local availability and patient characteristics driving the choice. Missed dissection at the emergency department level — where the patient arrives with clear red flags and is discharged without vascular imaging — is an independent source of liability, and in some cases the primary theory of the case.
+
+A neurology expert reviewing such a record will reconstruct the timing of symptom onset relative to the manipulation, identify the specific examination findings and complaints that should have triggered vascular imaging, cite the literature and guidelines that define the appropriate workup for suspected posterior-circulation ischemia, and quantify the lost opportunity for treatment associated with the delay.
+
+## Damages and the Neurological Consequences of Posterior Circulation Stroke
+
+The damages analysis in vertebral artery dissection cases requires a sophisticated understanding of the neurological deficits produced by posterior circulation strokes. Unlike anterior-circulation strokes, which commonly produce well-recognized deficits such as hemiplegia and aphasia, posterior-circulation strokes produce a heterogeneous and often more subtle constellation of disabilities.
+
+Lateral medullary syndrome (Wallenberg syndrome), resulting from infarction in the territory of the posterior inferior cerebellar artery, produces ipsilateral facial sensory loss, contralateral body sensory loss, ipsilateral Horner syndrome, dysphagia, dysarthria, vertigo, and ataxia. Cerebellar infarcts produce profound balance and coordination deficits, often with persistent oscillopsia or gait ataxia. Basilar artery occlusion can produce the devastating locked-in syndrome, in which cognition is preserved but voluntary movement is limited to vertical eye movements. Occipital infarcts produce homonymous hemianopia or cortical blindness.
+
+Each of these presentations carries distinct implications for life-care planning, return-to-work capacity, and long-term prognosis. Cerebellar deficits, for example, are particularly disabling for occupations requiring fine motor coordination, balance, or precise visuomotor integration. Dysphagia carries aspiration pneumonia risk and may require long-term gastrostomy feeding. Brainstem syndromes frequently produce chronic pain, sleep disturbance, and autonomic dysfunction that are poorly captured by standardized disability measures.
+
+A neurology expert supporting damages analysis will correlate the imaging with the deficit pattern, explain the vascular territory affected, provide a prognosis grounded in the natural history of similar strokes, and work with life-care planners and vocational experts to ensure that the economic model accurately reflects the functional consequences of the injury.
+
+## How NLC Approaches Vertebral Artery Dissection Cases
+
+At Neurology Legal Consulting, we recognize that vertebral artery dissection cases require a particularly rigorous combination of clinical neurology, cerebrovascular medicine, and biomechanical analysis. These are cases where the difference between a successful case and a Daubert exclusion often turns on the quality and precision of expert testimony — and where superficial opinions on either side of the causation question will not withstand scrutiny.
+
+NLC connects attorneys with clinically active neurologists who evaluate and treat cervical artery dissection in current practice, who understand the relevant peer-reviewed literature on manipulation-related stroke, and who can deliver Daubert-qualified testimony on both causation and standard of care. Our experts take a disciplined, evidence-based approach that avoids the pitfalls of overreach in either direction and speaks credibly to judges, juries, and opposing counsel.
+
+Our case reviews in VAD matters typically include a detailed reconstruction of the pre-manipulation clinical encounter, analysis of screening documentation and informed-consent practices, evaluation of the temporal relationship between manipulation and symptom onset, review of post-manipulation responses and emergency department evaluations, and correlation of imaging findings with the patient's neurological deficits. Where the case requires additional specialized expertise, we coordinate with neuroradiologists, vascular neurologists, and rehabilitation medicine experts to provide a comprehensive expert team capable of addressing causation, liability, and damages.
+
+We also recognize the procedural realities of vertebral artery dissection litigation, including statute-of-limitations pressures, the need for early screening opinions before formal engagement, and the importance of coordinated expert work product across liability and damages phases. Our experts come from clinically active practices at leading institutions, carry no malpractice history, and are prepared to testify at deposition and trial. For attorneys investigating a potential vertebral artery dissection case — whether arising from chiropractic manipulation, physical therapy, osteopathic treatment, or emergency department mismanagement — NLC offers rapid case screening and comprehensive expert support.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
