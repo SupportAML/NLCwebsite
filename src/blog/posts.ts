@@ -1945,7 +1945,6 @@ If you are evaluating a potential cervical myelopathy malpractice or delayed dia
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
-,
   {
     slug: 'subarachnoid-hemorrhage-sentinel-headache-delayed-diagnosis-malpractice',
     title: 'Subarachnoid Hemorrhage and the Sentinel Headache: Delayed Diagnosis in the Emergency Department — A Malpractice Guide for Attorneys',
