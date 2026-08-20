@@ -14,6 +14,7 @@ const credentials = [
   'Published in peer-reviewed journals',
   'No malpractice history',
   'Available nationwide',
+  'Adheres to the AMA Code of Medical Ethics for expert testimony',
 ];
 
 export function TestimonySection() {
@@ -56,6 +57,15 @@ export function TestimonySection() {
                   </li>
                 ))}
               </ul>
+
+              <a
+                href="https://code-medical-ethics.ama-assn.org/ethics-opinions/medical-testimony"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-xs text-text-secondary underline hover:text-electric transition-colors"
+              >
+                Per the AMA Code of Medical Ethics on medical testimony
+              </a>
 
               <Button
                 onClick={scrollToContact}
