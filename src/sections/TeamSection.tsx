@@ -108,15 +108,6 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     location: 'Massachusetts',
   },
   {
-    name: 'Cecilia Fernandes, MD',
-    role: 'Pediatric Neurologist',
-    title: 'Ancillary Physician Partner',
-    image: '/team_fernandes.png',
-    bio: `Dr. Cecilia Fernandes is a Pediatric Neurologist with extensive experience in clinical care, medical education, and leadership. She is currently an Attending Pediatric Neurologist at Atrium Health/Levine Children's Hospital in Charlotte, NC, and an Assistant Professor of Pediatrics at Wake Forest University. She previously served as Medical Director of the Epilepsy Monitoring Unit at Prisma Health Children's Hospital and completed her Child Neurology residency and fellowship at Duke University Hospital.`,
-    credentials: ['Duke Residency & Fellowship', 'Wake Forest Faculty', 'Epilepsy Monitoring'],
-    location: 'North Carolina',
-  },
-  {
     name: 'Ellia Ciammaichella, DO, JD, FCLM',
     role: 'Physical Medicine and Rehabilitation',
     title: 'Ancillary Physician Partner',
