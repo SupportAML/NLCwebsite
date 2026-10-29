@@ -236,7 +236,7 @@ export function TeamSection() {
                 >
                   <div className="flex flex-col sm:flex-row">
                     <div className="sm:w-2/5 aspect-[3/4] sm:aspect-auto overflow-hidden">
-                      <img
+                      <img loading="lazy" decoding="async"
                         src={doctor.image}
                         alt={doctor.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -293,7 +293,7 @@ export function TeamSection() {
                   className="group bg-white border border-border rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer"
                 >
                   <div className="aspect-[3/4] overflow-hidden">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={doctor.image}
                       alt={doctor.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -347,7 +347,7 @@ export function TeamSection() {
           {selectedDoctor && (
             <div className="grid md:grid-cols-3 gap-6">
               <div className="md:col-span-1">
-                <img
+                <img loading="lazy" decoding="async"
                   src={selectedDoctor.image}
                   alt={selectedDoctor.name}
                   className="w-full aspect-[3/4] object-cover rounded-2xl"

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown, ArrowRight, MessageCircle } from 'lucide-react';
 
-const faqs = [
+export const faqs = [
   {
     question: 'What is your turnaround for case review and expert reports?',
     answer:

@@ -55,7 +55,7 @@ export function CaseReviewSection() {
           {/* Image + Features */}
           <div className="space-y-6">
             <div className="relative rounded-[32px] overflow-hidden shadow-2xl">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/case_review.jpg"
                 alt="Clinician reviewing medical records"
                 className="w-full h-[40vh] object-cover"

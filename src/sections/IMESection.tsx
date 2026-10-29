@@ -73,7 +73,7 @@ export function IMESection() {
           {/* Image */}
           <div className="relative order-1 lg:order-2 hidden lg:block">
             <div className="relative rounded-[32px] overflow-hidden shadow-2xl">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/ime_patient.jpg"
                 alt="Doctor with patient"
                 className="w-full h-[60vh] object-cover"

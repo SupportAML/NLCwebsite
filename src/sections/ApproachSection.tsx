@@ -66,7 +66,7 @@ export function ApproachSection() {
 
         {/* Portrait Card (Right) */}
         <div className="absolute left-[54vw] top-[14vh] w-[40vw] h-[72vh] bg-white rounded-[28px] card-shadow overflow-hidden">
-          <img
+          <img loading="lazy" decoding="async"
             src="/approach_office.jpg"
             alt="Clinician in modern office"
             className="w-full h-full object-cover"

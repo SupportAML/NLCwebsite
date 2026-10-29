@@ -12,6 +12,8 @@ import { IMESection } from '@/sections/IMESection';
 import { TestimonialsSection } from '@/sections/TestimonialsSection';
 import { FAQSection } from '@/sections/FAQSection';
 import { ContactSection } from '@/sections/ContactSection';
+import { faqs } from '@/sections/FAQSection';
+import { SEO, OrganizationSchema, FAQSchema } from '@/components/SEO';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
@@ -25,6 +27,9 @@ export function HomePage() {
 
   return (
     <>
+    <SEO path="/" />
+    <OrganizationSchema />
+    <FAQSchema faqs={faqs} />
     <Navigation />
     <main className="relative">
       <HeroSection />

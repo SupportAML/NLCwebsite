@@ -2,10 +2,17 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
+import { SEO, BreadcrumbSchema } from '@/components/SEO';
 
 export function BlogPage() {
   return (
     <div className="relative">
+      <SEO
+        title="Neurology Expert Witness Insights for Attorneys"
+        description="Practical guidance for attorneys on neurology expert witnesses: TBI, stroke, and spinal cord injury litigation, qualification standards, IMEs, and testimony."
+        path="/blog"
+      />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
@@ -30,7 +37,7 @@ export function BlogPage() {
                   <div className="flex items-center gap-4 mb-4 text-sm text-text-secondary">
                     <span className="flex items-center gap-1.5">
                       <Calendar size={14} />
-                      {new Date(post.date).toLocaleDateString('en-US', {
+                      {new Date(post.date).toLocaleDateString('en-US', { timeZone: 'UTC',
                         year: 'numeric',
                         month: 'long',
                         day: 'numeric',
