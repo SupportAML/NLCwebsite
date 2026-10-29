@@ -18,6 +18,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     name, lawFirm, email, phone,
     caseType, specialty,
     urgentDeadline, deadlineDetails, caseDetails,
+    source,
   } = req.body;
 
   if (!name || !lawFirm || !email || !caseDetails || !urgentDeadline) {
@@ -32,6 +33,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     : 'No';
 
   const subjectPrefix = urgentDeadline === 'yes' ? '🔴 URGENT: ' : '';
+  const sourceDisplay = typeof source === 'string' && source.trim() ? source.trim() : 'Not tagged (direct/unknown)';
+  const subjectSuffix = typeof source === 'string' && source.trim() ? ` [via ${source.trim()}]` : '';
 
   try {
     const response = await fetch('https://api.resend.com/emails', {
@@ -44,7 +47,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         from: FROM_EMAIL,
         to: [TO_EMAIL],
         reply_to: email,
-        subject: `${subjectPrefix}New Case Inquiry from ${name} — ${lawFirm}`,
+        subject: `${subjectPrefix}New Case Inquiry from ${name} — ${lawFirm}${subjectSuffix}`,
         html: `
           <h2>New Case Inquiry</h2>
           <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
@@ -75,6 +78,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             <tr style="background: ${urgentDeadline === 'yes' ? '#FEF3C7' : 'transparent'};">
               <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Urgent Deadline</td>
               <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${urgentDisplay}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Source</td>
+              <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${sourceDisplay}</td>
             </tr>
             <tr>
               <td style="padding: 8px 12px; font-weight: bold; vertical-align: top;">Case Details</td>

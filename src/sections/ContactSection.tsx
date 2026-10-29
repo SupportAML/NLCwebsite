@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
+import { getStoredSource } from '@/lib/source-tracking';
 
 const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
@@ -62,6 +63,7 @@ export function ContactSection() {
           urgentDeadline: formData.urgentDeadline,
           deadlineDetails: formData.deadlineDetails,
           caseDetails: formData.caseDetails,
+          source: getStoredSource(),
         }),
       });
       if (!res.ok) throw new Error('Submission failed');
